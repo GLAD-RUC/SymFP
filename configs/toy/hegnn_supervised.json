@@ -1,0 +1,21 @@
+{
+  "model": "hegnn",
+  "regime": "supervised",
+  "hyper_parameters": {
+    "model_type": "hegnn",
+    "num_classes": 32,
+    "hidden_dim": 64,
+    "num_layers": 2,
+    "max_ell": 6,
+    "irreps_channels": 16,
+    "mace_correlation": 2,
+    "lr": 0.001,
+    "weight_decay": 1e-05,
+    "freeze_encoder": false,
+    "so3": false
+  },
+  "epoch": 81,
+  "global_step": 6560,
+  "source_checkpoint_sha256": "a53d7d7bed1b6b9d76b4cfb50425bfc457be16c2497bbc5669efc55ed2bd8eab",
+  "format": "NumPy state_dict: use torch.from_numpy for each named array"
+}

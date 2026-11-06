@@ -1,0 +1,3207 @@
+[
+  {
+    "path": "datasets/toy/train.npz",
+    "source_sha256": "24ad70b985a91763a61c796fd2a90fcf643e742eaeddd6d4d7aaf7c59ac280fb",
+    "transformation": "existing split and order; x/pos exact, flattened by offsets"
+  },
+  {
+    "path": "datasets/toy/val.npz",
+    "source_sha256": "24ad70b985a91763a61c796fd2a90fcf643e742eaeddd6d4d7aaf7c59ac280fb",
+    "transformation": "existing split and order; x/pos exact, flattened by offsets"
+  },
+  {
+    "path": "datasets/toy/test.npz",
+    "source_sha256": "24ad70b985a91763a61c796fd2a90fcf643e742eaeddd6d4d7aaf7c59ac280fb",
+    "transformation": "existing split and order; x/pos exact, flattened by offsets"
+  },
+  {
+    "path": "datasets/toy/toy_symmetry.pkl",
+    "source_sha256": "24ad70b985a91763a61c796fd2a90fcf643e742eaeddd6d4d7aaf7c59ac280fb",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/symmetry_breaking/B1_octahedron_tetragonal/positions.npz",
+    "source_sha256": "e19fef686ff97aa2f9d9efde189bcb59779bcf933004152c6cba1031aa32f9a9",
+    "transformation": "lossless NumPy recompression; arrays unchanged"
+  },
+  {
+    "path": "datasets/symmetry_breaking/B1_octahedron_tetragonal/trajectory.xyz",
+    "source_sha256": "0611595f6dd719386a379b28d07564fd4974ef05ca12476ade25154c125001a3",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/symmetry_breaking/B2_octahedron_trigonal/positions.npz",
+    "source_sha256": "0db619ab4a468fe154b7f706ce10f9310e22bf91a9c4ae0952e144f8be65bf91",
+    "transformation": "lossless NumPy recompression; arrays unchanged"
+  },
+  {
+    "path": "datasets/symmetry_breaking/B2_octahedron_trigonal/trajectory.xyz",
+    "source_sha256": "4f66eb6526ec086057cd2de86af8d2de8ddef82c70452a17db0760f007b95ffa",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/symmetry_breaking/B3_prism_axial_chirality/positions.npz",
+    "source_sha256": "35fd7d30c1110a66ecf74609d61550ae1dd2b292f86a303adce00a58319b8310",
+    "transformation": "lossless NumPy recompression; arrays unchanged"
+  },
+  {
+    "path": "datasets/symmetry_breaking/B3_prism_axial_chirality/trajectory.xyz",
+    "source_sha256": "7868dc0d01b806389c8cd1e786cf2034ff011a900db5699ec2ba0f3144e081b1",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/symmetry_breaking/C1_octahedron_descent/positions.npz",
+    "source_sha256": "7f657e2e3b33ac63ed76e06a654bae942959aa2208a1eb91be76f080ceddfb97",
+    "transformation": "lossless NumPy recompression; arrays unchanged"
+  },
+  {
+    "path": "datasets/symmetry_breaking/C1_octahedron_descent/trajectory.xyz",
+    "source_sha256": "25fcf22d7f695f8bb25c18e35375af3d2f059e37759fd43e7079ed6c5ce57776",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/symmetry_breaking/C2_hexagon_descent/positions.npz",
+    "source_sha256": "384fa57b70248d908260fc59ea2c170ee23d5f562a31430766c6d5a20f3558c8",
+    "transformation": "lossless NumPy recompression; arrays unchanged"
+  },
+  {
+    "path": "datasets/symmetry_breaking/C2_hexagon_descent/trajectory.xyz",
+    "source_sha256": "bc2d74b1cfbb744723f13b9d26a0866a9c9d079e51d1639513df2f85c67ec23b",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/mode_separation/AX1_pucker/positions.npz",
+    "source_sha256": "9e6b73c0da217ea2c37a3f63b57fcc285b6e6cb05fa797b139f073438e59b518",
+    "transformation": "lossless NumPy recompression; arrays unchanged"
+  },
+  {
+    "path": "datasets/mode_separation/AX1_pucker/trajectory.xyz",
+    "source_sha256": "7e5ab51568bff56bc0263b435c6f1366642d30427c4fe37d39179a8be0882a26",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/mode_separation/AX2_spiral/positions.npz",
+    "source_sha256": "bfdb7457007e86b8ef0cf7868f4c1e601caaa68d5533441d4110117be2ce5b63",
+    "transformation": "lossless NumPy recompression; arrays unchanged"
+  },
+  {
+    "path": "datasets/mode_separation/AX2_spiral/trajectory.xyz",
+    "source_sha256": "98eba2f30d7270756e86c14ace9ec25b6311055d1bc4fa9e9eea1719c3b8d20d",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/mode_separation/IP1_ellipse/positions.npz",
+    "source_sha256": "17466190d353410153d43d5e063641e804b1cec8bed5629f455a19f3d16d29d0",
+    "transformation": "lossless NumPy recompression; arrays unchanged"
+  },
+  {
+    "path": "datasets/mode_separation/IP1_ellipse/trajectory.xyz",
+    "source_sha256": "e382459221c34d0cfa790000a0238062e06bca2cbc041a5cdb65751e325c33ea",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/mode_separation/IP2_radial/positions.npz",
+    "source_sha256": "fc3d870e1ea1a63eb1f29afd631ba89b56bd993e529b6a93701ab85610ecb47a",
+    "transformation": "lossless NumPy recompression; arrays unchanged"
+  },
+  {
+    "path": "datasets/mode_separation/IP2_radial/trajectory.xyz",
+    "source_sha256": "be6f3d9d7a6bf81b5b50b734d8bb213dc63fc8852a564d5fa25d5defeb709604",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272352.xyz",
+    "source_sha256": "ba249801e84e75f0db5683e6d197ab05b480f4ce01dada6ad234564a81649ef7",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272353.xyz",
+    "source_sha256": "6a8995239309625a2f22a58293848c35b2344122c9b5a45a31426b1c4c53c285",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272354.xyz",
+    "source_sha256": "9048e3f63328dd273fef18088c50d79569ee848dd660e65ff08de4e20e208387",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272355.xyz",
+    "source_sha256": "0ae0c4b77768d58e07f3de02ba884ea5f31cfd6e6bfa5395a11cac6a91562e5b",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272356.xyz",
+    "source_sha256": "fcb146305c6b8cc1a070457d93ddaef4836c268b428ce7d2570ad49ea8b2c576",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272357.xyz",
+    "source_sha256": "117f43e7962a01598a411a4c131c73e15345179d9c99011f948a3d9702d4d81a",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272358.xyz",
+    "source_sha256": "f3e787a8073eb34b8099c6f57eca564055bb309f3d305b6bc434220c112d2508",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272359.xyz",
+    "source_sha256": "f23262a5619fe8c43fe91c0f8fb3c2aab73c8b26f003a16f5bc0145f40b6b600",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272360.xyz",
+    "source_sha256": "eb78c6f7eb7e4c32e22a2bdc8ad05573c86f91b01facae81d68f4b72fa380672",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272361.xyz",
+    "source_sha256": "69f99e7cf79cd8ca38169d7a3e9e54ad00d958daa8d6d4239152da6bc37f5e31",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272362.xyz",
+    "source_sha256": "ec3b6284b9225113f3651e2f70c89db1e27fec543d44f63014c2c7bcad0100de",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272363.xyz",
+    "source_sha256": "dee40e207f0b86c224822cab607f5be6ae2865054e7447ba8cd73c3383708043",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272364.xyz",
+    "source_sha256": "64a62a6457ba5c47236d2df900f35b632606af7ef41ed47804d9fa3d8607a41b",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272365.xyz",
+    "source_sha256": "ef4a14c140cde63fbdc7260bbab633a369ec61b146ba2e2ec21f7aa7e8ab4dd6",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272366.xyz",
+    "source_sha256": "c909347b7374c7534b543abd734cbcc7491cd96cd06f1a0f34681b80e7901d26",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272367.xyz",
+    "source_sha256": "bcb95aeeb26aac81a235a66d7affa013490354b6631635a91b8c55d9fe3082e7",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272368.xyz",
+    "source_sha256": "8653476aa6e801b0b70dc24b0645dc583ab7dc2bce5ce86708bf6896140ec50e",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272369.xyz",
+    "source_sha256": "ef457cda057143db4c839860001c384f174414abfb904f361b8db8d85d5c4f4c",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272370.xyz",
+    "source_sha256": "7554e8bf47144a4bf367ce1100da28ca3572ad1f1873de7a11f235c3f5418f1b",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272371.xyz",
+    "source_sha256": "990029b4108f01198cdccfa225eae3f4cc69cb2bafafdab07e829b964c956120",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272373.xyz",
+    "source_sha256": "7560f574be529ccb836722c118306b8ff1bb287f7c6bc3d49ebcb2129d3918e1",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272374.xyz",
+    "source_sha256": "8f22a422d78e21b04943fab42be35683e56543652026350af83327ba4ede7151",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272375.xyz",
+    "source_sha256": "be1b1763a6bb3c4d17f8c888f7c1ec7e89f3ba3db1db4ea044b6ce0309c2d343",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272376.xyz",
+    "source_sha256": "c4882d0b50c02cf63175081ca8732941ca3f4820bd66e9c9b715b04da7848efc",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272377.xyz",
+    "source_sha256": "0e042c71b625a0fb7afe545ae1bef541b5b41656475e791c7ba921da981128b2",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272378.xyz",
+    "source_sha256": "aabf1c5332c0d10c2812ac25184c99086e571543097e9c7f542399b308a69e93",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272379.xyz",
+    "source_sha256": "1ede2d802243bf2a1f26617bfceb1eb19aa14454a53ae23131d208f3f5545456",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272380.xyz",
+    "source_sha256": "986d7eb0848daf2e085de73fdad6e257a00f8138d4954e7d79f0b6484a682a99",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272381.xyz",
+    "source_sha256": "7289952f08ee92947d43330a8b406d82b78a9a5d07f920d7b570b7ff3df42687",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272382.xyz",
+    "source_sha256": "7ea70509bd29dc0586d98da82cc8926b9897025eba5568c963098c06f3efb77d",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272383.xyz",
+    "source_sha256": "b9124ec7e1bafdfcf007a8a0ba728178c5dc1fee88fb21f761f89c72068696dc",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272384.xyz",
+    "source_sha256": "459f64f714d8124fcade1b42ea80d4c444453ad623da6de1eca208ea9f12ac57",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272385.xyz",
+    "source_sha256": "2f0ac4c5b569a574b5550fede2728c566dc46843878015baa0033150bd90dc9a",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272386.xyz",
+    "source_sha256": "746aca5539284d11a9330cbee8497d0dcf42783d48794656bda11b8be168c68f",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272387.xyz",
+    "source_sha256": "e11713c128dc2dd1176470dfdf944bbb97a47b4a4972f9ac50e10d6491493d37",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272388.xyz",
+    "source_sha256": "cac78b84e57137bd3825fd47d49133fd295f4108a2914955a1684f0fde43b4fa",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272389.xyz",
+    "source_sha256": "2eb77dd3554a49242b736e3e1475992551afbafd426011775dd07edccced7723",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272390.xyz",
+    "source_sha256": "24ee828a967d98e99842ac7136e49edf839d5280d307c215e012c47005727f40",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272391.xyz",
+    "source_sha256": "1840c00f838d50e91d4dbc943fa0e65696e7dee3b26125b4639df68ea282721a",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272392.xyz",
+    "source_sha256": "f37cbc2cf5ef45c5760e61263036d29bd3573f0b970a25846d73341248327b51",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272393.xyz",
+    "source_sha256": "0e99a90d50cef02863c6394fbaede156fc58bef8da289830ab2e22332a938add",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272394.xyz",
+    "source_sha256": "e65bdd02d00c8901d100a62c99848789178786037a603ee1d6623d00fd6e27e1",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272395.xyz",
+    "source_sha256": "172987832f4b18a7fec3e17f991a9fd974f18fb835cadbdaad2bfa8e2c6221b8",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272396.xyz",
+    "source_sha256": "b45ad9c21c8f86b9468cb1a49cc8dd3bb1dcfbe31f7ef6387994afbbc5061505",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272397.xyz",
+    "source_sha256": "8e79c54691f805e68e14a1fda05c7da83d7f086cf47c59c4e100e84848620b49",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272398.xyz",
+    "source_sha256": "2fc451096936389a23edb6bf34ec722a666b5ee0f3554dc7ba1ac40d706c1ada",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272399.xyz",
+    "source_sha256": "94bc813a1b15fac1a70fd8e903bb35f03a1a2b4ced3c4695c9d531555812efd7",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272400.xyz",
+    "source_sha256": "5b36c7f4d21e3ad03a714bec6e531391d3639e1e66c39aefe548afcad8edab4b",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272401.xyz",
+    "source_sha256": "a78000684b9deed73809a8cbea57b519089817fac2c86e807e0b0dc46979df84",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272402.xyz",
+    "source_sha256": "24da9d3600b7018c4e083dfed407fc5f0bd9b4450f6086507ea14709bbaa8e45",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272403.xyz",
+    "source_sha256": "874f40b798492d683d9c6a01d243039115dce2c1dc101ff9897d097dc9c1125f",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272404.xyz",
+    "source_sha256": "5331218fb0495d11e185824eb76381f6b706a3202a1d7d025ada07d79b05413b",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272405.xyz",
+    "source_sha256": "d1f4676ed8ccaf779ed8403aeb80ae9dc4da95c7dfb4e79d63e2697d79fe4948",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272406.xyz",
+    "source_sha256": "7f3070a620b3d03d2dd02e516e1528365652056837f20a58e2d53253fd0a512b",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272407.xyz",
+    "source_sha256": "7274a7afd66f83efee2f832c0ad374f8e6cb9b1d28f54562a06062531261ef29",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272408.xyz",
+    "source_sha256": "d675406254c5bab4fede6b55413edfbc0490ebe06853d0e877116bdb5815af59",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272409.xyz",
+    "source_sha256": "e69c9f36197d7f0b6e0d7fcdd374c9d0a71647bfcafb890286e3c447e2eae9b6",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272410.xyz",
+    "source_sha256": "c3927e6d5ec9f3b0b01691425a0b06ce047b4b7bb403df27b9b552ed8661ee8d",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272411.xyz",
+    "source_sha256": "9042d5235132a863c6c1a8911b918c3cabc045c1c46031edb8a172abccc3768e",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272412.xyz",
+    "source_sha256": "849a83fb6d173d6e5daf71937444f4380d65d92b8438ac2cb72dabbc7e822d33",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272413.xyz",
+    "source_sha256": "76a3f828e1ae6b2441a82b50d9a75c41b991ebe568f02911dbbeb643b6a1f213",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272414.xyz",
+    "source_sha256": "37559302c7d5950638c46a0bc2b97acbdacb3665d9a95a77673a0a9cec8b4980",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272415.xyz",
+    "source_sha256": "2bab1d3791b0665e37bffccba817497c35c328a617aa299bb11581688b27f3cf",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272416.xyz",
+    "source_sha256": "d67bd28f13fffbf6e9e1bb7523e84cc68308f5765f26ae087023fad74da025de",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272417.xyz",
+    "source_sha256": "0a2538860edda06ebd1fe2f306cec455e30169a5a18ff7bbe8cf85f41c741c9a",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272418.xyz",
+    "source_sha256": "221cc00250fdc5c231a240034fa6d98c362aeba84e5b008ea037006d36a3fc6a",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272419.xyz",
+    "source_sha256": "e75b5dedc3f310e39d592359639d19a99363c1cb832786f1a353575a985ac48e",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272420.xyz",
+    "source_sha256": "13e2fa84d15e283967f26fcc4eccc81d9a62f598ccffc14f6827f1a2459864fe",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272421.xyz",
+    "source_sha256": "36f54eccf22d7fbd7ed3cd028535e84c5a6f22159f5b381872b9f4ab4e597fc2",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272422.xyz",
+    "source_sha256": "3dccbb50788cebcc477c546f54fec25cf994d08b473fb834cd859fda2514f5e0",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272423.xyz",
+    "source_sha256": "ccfb29bbbff4d6e39a6ac272ffa0f15b98c1f18e6437e02115387e6097d3c8ab",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272424.xyz",
+    "source_sha256": "b50048f25b7789dad4d41682207a73cb72f11d7698246ba82f72157f2d9d496b",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272425.xyz",
+    "source_sha256": "a27f1a36dc8487daeed850e9cec0d81046f5eab7d31a6bc198ea8c8b826c9941",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272426.xyz",
+    "source_sha256": "dac44c95720dc2ef400ea3bf80b463d20c010bd1e4dad84f26bb82ec5f7c827a",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272427.xyz",
+    "source_sha256": "66fa0fd5070a3c60485d46874eb0bf5c179902d2a7d686cbd4d5cd2416c949d2",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272428.xyz",
+    "source_sha256": "cfcfe029e26604343e716129c7e9f237b7d779637b0e2640883184e58f78ac5e",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272429.xyz",
+    "source_sha256": "a2b1e74d429d2fd482c039e979f59deefd4643d559ecd3c71f0948c0c73c3aa0",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272430.xyz",
+    "source_sha256": "1f50d3e31e84b2d0793c46a814413d567947a4af59429dc680e40cb1fb0a6c1c",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272431.xyz",
+    "source_sha256": "7fca4ae82a32dc1b62bc50b814af40934fdaab49654fac9ae7f3e57b54b5d0f3",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272432.xyz",
+    "source_sha256": "10da3323935c66cc5a577780199a4a4164d147c02c4d41a8f442e186162ba32a",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272433.xyz",
+    "source_sha256": "2d5ef236ca4b2519b43be253a2a811442f26379888924e232d2bc86e65731506",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272434.xyz",
+    "source_sha256": "be447e45565013a8e478445ef93dffbc285f298dde54868a4e4feffb81fb9a75",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272435.xyz",
+    "source_sha256": "3e8b2e5bdc35a37a4bd163d4f07ebb2f34ade496826319d46c540266b66a2326",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272436.xyz",
+    "source_sha256": "c548b6edc803554e01485a29e067e54060214e97a0c046e729e55a0595bc5808",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272437.xyz",
+    "source_sha256": "466c1feed21e91f088bdf39234778930b3df1df2ba46fb90bbe2dc7942543108",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/trajectories/21272438.xyz",
+    "source_sha256": "63f2b434451fb81b013c70321e3da19914ba4061cea397cd6e41caa71a2b17b6",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/torsion/metadata.csv",
+    "source_sha256": "90e5b0182ad607700b4d00f87c86ae76dc936f937b57b555024eff5696a923ca",
+    "transformation": "current-manuscript row/column selection; numerical values retained"
+  },
+  {
+    "path": "datasets/torsion/responses.csv",
+    "source_sha256": "775e4d977893a79d4999966ecc69c3aa82f930e20c2e9f9fc43ccadd17784a08",
+    "transformation": "current-manuscript row/column selection; numerical values retained"
+  },
+  {
+    "path": "datasets/lndota/clusters/Dy_DOTA_H2O.xyz",
+    "source_sha256": "22d301402210469e41fb7d65decafc62557f65366cb3a0bb9506b591edb03153",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/clusters/Dy_DOTA_strict.xyz",
+    "source_sha256": "58893e4411886ec7273ce966294c2bf20f5cb4b0bfaa9fccb820cf1f983f56b7",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/clusters/Er_DOTA_strict.xyz",
+    "source_sha256": "535c4fe30480bf8cfe4dcf7192e4b00712996993eb3422a721aee28c12e49bae",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/clusters/Ho_DOTA_strict.xyz",
+    "source_sha256": "f150a7656b8245b5a4da7a133323ef4ca43725a38d63d33935b03ca735e9b34b",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/clusters/Tb_DOTA_strict.xyz",
+    "source_sha256": "857028e833249d099da0bfe37b07a4cb7dc64cffe191f696d4642add9284fdb8",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/clusters/Tm_DOTA.xyz",
+    "source_sha256": "6f2f4ee618e1d9b1f8ab4a8e5888418f02e441e7873bc61a6b2d9439c6aa4b0e",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/clusters/Tm_DOTA_strict.xyz",
+    "source_sha256": "c86043b64e69b47515f430848bad06989394feee9ff4890f67656ee761d6f3af",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/clusters/Y_DOTA_strict.xyz",
+    "source_sha256": "f4b9cec5bca93fd9cd708ad102d5f17bd0a4ccb8fbd224cea05e5f52e46243e3",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/clusters/Yb_DOTA_strict.xyz",
+    "source_sha256": "d714ac7400e7c6dbe4df2282d2ce109547ff79a38eac943deeae3acc9b1b96d4",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/metadata.csv",
+    "source_sha256": "ca13bcbb4075bf004cc0c765fbcfba07cdb0ab265c07b2dc090537870235fc68",
+    "transformation": "current-manuscript row/column selection; numerical values retained"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha0.xyz",
+    "source_sha256": "f2d625425ba65b31bf7370fbb0861758efdd6b3b601637e2025d13e78d455ca2",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha1.xyz",
+    "source_sha256": "131c3d58811657d57332f93e649d0ccf7efe38e213bcc20530f2e1702451e4cb",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha10.xyz",
+    "source_sha256": "a68bd19ae24b6ae51217b09936bbc3a393668a29bca142674afdf27ea83c3d4b",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha100.xyz",
+    "source_sha256": "bdacae1565bdb53bcc508739bc27b98cbfab723515c516a1dbbe85cef09d5acd",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha101.xyz",
+    "source_sha256": "afb53796bb722f33ced7cd7a838912e4b61689276c0249e8e02519154059b6ed",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha102.xyz",
+    "source_sha256": "fa417f1de4a483497b6da8e98d4485df65a5b350e9b0a96bf33d81e19a74a027",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha103.xyz",
+    "source_sha256": "2b0d42947d199a53e39bac27174512a4916faf4094744f8d72638bbffc77f4a6",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha104.xyz",
+    "source_sha256": "9ad917d37116b6fa75e060db4b0c61d37fd06f0e9787b65715b897b49ad25fd7",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha105.xyz",
+    "source_sha256": "9235bf1a084984a7c5911333d6ca9021e8cde97a5a828d702d51bc62bf1a6c24",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha106.xyz",
+    "source_sha256": "8c9bf7644b372e985961666ff281ac9890d918ee41a7e790a5223a12a56fbe70",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha107.xyz",
+    "source_sha256": "dbd866a972077c365ab00590620a228a8334a18debed599adb2111d5d946850f",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha108.xyz",
+    "source_sha256": "59a51010a7277825549a8aa6ffc3ef3216a96fc3bccf1184249696043ac00b96",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha109.xyz",
+    "source_sha256": "b35d85a67b911cb2823224bb23555cf46bfeac0e4a90bf5ef7e3428e459c070c",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha11.xyz",
+    "source_sha256": "2d24e29b933472f521dd10cd9118ffdfd5905c3e5888442daf9954f5bcf3004d",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha110.xyz",
+    "source_sha256": "6f9a4f294a46532701559274afe44d7695aa78df26cd3d554ef2c9ebf77aa0c9",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha111.xyz",
+    "source_sha256": "cdc272b43c9513a52aa127dfc17e1b9bfe8c18d16b89017bbbd6533b4425851a",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha112.xyz",
+    "source_sha256": "729d2ab3946e0769f2d156e3640cb60249b256206b6a9d1ee70d76e49f3d7ccd",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha113.xyz",
+    "source_sha256": "9902519c84609600f9a645e051e802a305e7850cf839147bf9e1cf52af5a6a74",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha114.xyz",
+    "source_sha256": "a5620950721b70bf7f8ba5ad8737df829e725ca293dd643a7d36da31e6bc9f08",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha115.xyz",
+    "source_sha256": "53e577ec138b6fa3c2923b7feb64ee4b6b675e7ebaf255dd2dae68f4b4587bd0",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha116.xyz",
+    "source_sha256": "fdb61dc362b0d48d61f41012c8f7a5b321b3c59227d2ce04b601fb0b58c8d463",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha117.xyz",
+    "source_sha256": "a42b38eb166f21255c334ea9cd7c91eac5dc1f4c6ad1175c21d91e8aab971685",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha118.xyz",
+    "source_sha256": "e68954bdddde91591bc86c53445a71b7d21106e103ad417323f5650914dbcc72",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha119.xyz",
+    "source_sha256": "95390fed268ba550bec42ff22763e82d8e81d91e3e6024c6ae88ded7fac341ef",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha12.xyz",
+    "source_sha256": "1812ff7945e7355eb02c6e93a0aa19d0c8fe3c43c359124b2908d93c8f261ea2",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha120.xyz",
+    "source_sha256": "74785ca29879fa0faedaf79325a1ad7f1d3317c104a4732c451dc9c5d50b948c",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha121.xyz",
+    "source_sha256": "01641fb19a6e4137c561644edca78af7b4361c22cbd64f3dcf2dc871a4f76c33",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha122.xyz",
+    "source_sha256": "632e5360327f9faf95beeed0b8ef0006f7f21c7a9dc55a024651a0dfec5de471",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha123.xyz",
+    "source_sha256": "f6b05ca11c53070c915a2109e1e86a65b59d50a117c7224fdbd8f3bb7dfeec75",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha124.xyz",
+    "source_sha256": "76bd90da9cfd54aae1c002f13974392ee27abab3f3ab0157605a4871ad37aaee",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha125.xyz",
+    "source_sha256": "cfa0a39079a71cdacc87b7b8f6ba8e47471905b6577818802bca356a1a633845",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha126.xyz",
+    "source_sha256": "d3902d2911585ac2163065e2b1ede06b7c7edbe479c4f1fa2e51745e56fe83c4",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha127.xyz",
+    "source_sha256": "dc15e67c9b93627eab18efe02af594f38ffac022805f42838a924f7aa5ac42d8",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha128.xyz",
+    "source_sha256": "3028dc15d92b1e6d098f002fce6007a03680e637ba8b05dc150faebee0614a85",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha129.xyz",
+    "source_sha256": "8ec5eb3ae20297362c97e399da709d454b4f47956ec979888d6e283c41be6bcf",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha13.xyz",
+    "source_sha256": "caef6b1d9093b76b80153d97f5f131e385e2b590805b37dd5b45a2a11e5cec4d",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha130.xyz",
+    "source_sha256": "9639e4114ba4f0ae817a192f2413feb508f1f9c610658d948a89193a6be57bf3",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha131.xyz",
+    "source_sha256": "a947c38bc7c346e1b2ce81a538ec3c9b1802cb21f6fc5ddb23c52d0584174ecc",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha132.xyz",
+    "source_sha256": "d8882253b09194cea6847297e7c3e164c5fe8dfcf07020d9d6984ad6266e310e",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha133.xyz",
+    "source_sha256": "5d724dde88fad7b19a5342245af766c43332f0e00719111633b12c1c5c266e3b",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha134.xyz",
+    "source_sha256": "d6d54c0b946f8075007f8028296ad64afd41a5a3f3a5e20a38a01bd5766b186c",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha135.xyz",
+    "source_sha256": "d25b54bce9d024714bd9e43de48812cc7d995c2006db6cefaf8e644069f33cce",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha136.xyz",
+    "source_sha256": "e1ff4bf2478f14b7cffc72006baa2d544aece0076f93d4dc4907e83374ed1c9d",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha137.xyz",
+    "source_sha256": "331afce3957f483531c720c6991180f5e3c20953b32b8be786c72674b1c52858",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha138.xyz",
+    "source_sha256": "620511c0b0fbdbb1b0ba4a8eb725d583bc3fdd3cd69b92090ebe7b7cd16fc5fe",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha139.xyz",
+    "source_sha256": "fe4efbaad7d7f494e8b93886b778accaf5c18356c270efb103ecdc290412cb0d",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha14.xyz",
+    "source_sha256": "f7ad862b4efb6e103ad06666a620ada3e0c57fe6de44de7f45221b7dc6f95a95",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha140.xyz",
+    "source_sha256": "7dce5c6e0640a48ca7a52904645cb299bfc3b5a012d2ef2ad530130a0e3395c6",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha141.xyz",
+    "source_sha256": "4ca7389dfe2b580da9665406e90f84f219ce2fb5fd848315831bef6a8473c1cf",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha142.xyz",
+    "source_sha256": "d335e38096583e76bb1fad7048881a1eb89b0a5d5c012075ca64a2c022e1ffc4",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha143.xyz",
+    "source_sha256": "7a8b1b77d4323ea604b9efcd7b676fe1222b62372d179c64ff5708261fa56e3f",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha144.xyz",
+    "source_sha256": "e2842ddd81d9491174b042b5ab8529cbef137547e582fea578ca7d575c4d4655",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha145.xyz",
+    "source_sha256": "c44f18f55c537c731c7521362b4d5105048a1cac9c1bb2a52207c1c4efd24d13",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha146.xyz",
+    "source_sha256": "2bb053e6a054a28f3c52fbde6968fcd7fee2a34fbed88842767dd926053db2b4",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha147.xyz",
+    "source_sha256": "923224bd61240c3a23a86613e73293d20e3d3de6dd4bce6c043eaa32e021b8ef",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha148.xyz",
+    "source_sha256": "41652623610802b668aa47bb903f57d61e59e2b5eebe8a13cb95a81a8a625e8c",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha149.xyz",
+    "source_sha256": "40f234f2cf4366ab93c46aad238e2915acb77563471223b83930ff74a312eff5",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha15.xyz",
+    "source_sha256": "74a932c93c3ed48578a8b695de185c6becc7c10ed1726bba3953c26a51156ff6",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha150.xyz",
+    "source_sha256": "80f6b481e2027a3bdbed239ee9e8e37d2d7e40e6613013242b8dd7bae306f801",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha151.xyz",
+    "source_sha256": "06d7a42cab860b02c9bfef89896de6b80092ad10377c355f14e071047edc8858",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha152.xyz",
+    "source_sha256": "c8c9e567c750f54b598295ae69e42e81ab472c8662704f602b5c96b6f34f194c",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha153.xyz",
+    "source_sha256": "d9c33dc604d9345011c6313b05cc462357f3958363ec071adf4f4000490c4caf",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha154.xyz",
+    "source_sha256": "88551b0c5fded1cb961c2eddbac6f8ba1311d60171d6f54d1f8512dfb54f2d14",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha155.xyz",
+    "source_sha256": "2bc4aba029d4f32ef6a6f957bcfc7f99fce8eded14b74406aaeebc7d96069da2",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha156.xyz",
+    "source_sha256": "c957eacdc5c2b0b38ff6377be81e423b55666ef9bab90277d1fd6939f032e8f6",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha157.xyz",
+    "source_sha256": "65aa1d50084449fa77680b7216761e605dd9669224f6b6597e7814d821e31457",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha158.xyz",
+    "source_sha256": "d40a143bbec15d9aa4d63be3239514d7aa54ca88591d16a8f1a0ae5d37fce928",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha159.xyz",
+    "source_sha256": "6d306e750dba898298aa8aff9beec08cd515d3688f7647e70d1d622294b4657e",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha16.xyz",
+    "source_sha256": "2bf66b8e90bbdf0c277a21f8571a70a7a94dd603b0c391f2a00ae3df29bd18ca",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha160.xyz",
+    "source_sha256": "936b7613ad5d102684cb4437b13d7a8108e3cf6efc71688c154565e0cd497bd7",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha161.xyz",
+    "source_sha256": "4f6b880be56c6a811509cf83a9bc1450e9532272e1ab329b5a4a21d4d0733b28",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha162.xyz",
+    "source_sha256": "0a86c07091245453fa641e614de317f6fab6b9397fff1fd202f20db4a0809b7d",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha163.xyz",
+    "source_sha256": "6906041f3640c19e90af63a7ac7b6f15f95bf1806fc23cb4132900919d1702cc",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha164.xyz",
+    "source_sha256": "10002f25e7571b22378090724e838d881aaeedf6622672b1ad02da53ce3e6b50",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha165.xyz",
+    "source_sha256": "ebf3167d979889d33505359dfd3ed57d8204542ce9a2e96ef3fe0c064f95d7a5",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha166.xyz",
+    "source_sha256": "7bb5211e5bb0c0913a21694d3b48095f32417007c22b7d9f88f0fc684d2d0207",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha167.xyz",
+    "source_sha256": "f795d41a300807cdf0b665467377481a0222d946da940e12c5c5e981a2866adb",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha168.xyz",
+    "source_sha256": "32c14906c3b6ae0c1b4c651a9a8a694e969192d48ef3b845b0ba7c4290a71e13",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha169.xyz",
+    "source_sha256": "069fd9f697561e642d559efa074951b57d9fcc8e91ac7531a7a3f1a37305030c",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha17.xyz",
+    "source_sha256": "9b09d18343065a731451fcf4a9aa7d74645f79320fa3067cf6482ea5cfc7eca1",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha170.xyz",
+    "source_sha256": "24797b26d14f55fb4d96c9201b3f76ecba7ff60394e8aa496cf293e208274975",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha171.xyz",
+    "source_sha256": "63f407c7c25c4f6944309029138666e3d1fc4bec658eea0dc918cd69fb778eb8",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha172.xyz",
+    "source_sha256": "eda68c7b753b1c77b56d528fd8b2ca213f452959ebe175d3d2b924181669ed9e",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha173.xyz",
+    "source_sha256": "d602438761158c4fd86b94a770b57126e25e0e607dcf871aa0feec381c5fff06",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha174.xyz",
+    "source_sha256": "eeee42f11c83ba77a26e4305237e6fca686be3d773a4644069de5d4ffb3ba4e7",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha175.xyz",
+    "source_sha256": "fcc946e73909d9025e8a69eea917e9531687f29d04f2d6f6a4893d6094c78c3a",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha176.xyz",
+    "source_sha256": "f2d73e7d714d38448f3852edd43de9c7cdb6ff5d51697a8030d38ff2104c0e82",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha177.xyz",
+    "source_sha256": "6f179f86e550e6560178ec89d2c0f16134074f07dcb107eb86aa6add9bcf4a8b",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha178.xyz",
+    "source_sha256": "a8bc851d1268018be01a3bc07c75c315dd36689c17af1177b3530e011aedcae9",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha179.xyz",
+    "source_sha256": "964589ba72914d9ec04f95685579390c1754780f04d9cc89867aa12a60eb38ff",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha18.xyz",
+    "source_sha256": "fd8621f98d95ed0db6b48551688dad76c179c7bf096c4fd40c65386dbe52927d",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha180.xyz",
+    "source_sha256": "e7ffe9df3398abd1bf1abd2f60790f26ae881f01fe391fa9289e2b35ab857ed4",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha181.xyz",
+    "source_sha256": "c902515158d3447112865dfec9aaf30d127ff8319d0fe8c9cb78095e22fb4419",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha182.xyz",
+    "source_sha256": "6c1aab7c66d2cde47d9574062e9d43cc4b3a3c42d1ffa592a775477488c6f688",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha183.xyz",
+    "source_sha256": "f9f9f54a778d2a580235ef8ca717a91282e3c1e0e1a7567794350458b11f8c69",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha184.xyz",
+    "source_sha256": "0ae2a24edf83add174548bc16f8f1aeaa1441bbe8b1120c55e8474e519bd8378",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha185.xyz",
+    "source_sha256": "c94d269e4b1f5b7e2069188b28f5d0091949729b71ce5525ced766287e2f0bc0",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha186.xyz",
+    "source_sha256": "206105ecc64885ee5ab03087f02303b203c625a9df0ea6ed73cfb7cee1a34ada",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha187.xyz",
+    "source_sha256": "6548b8b4517ef413fc61bd3807bdb8177242c71706740ea5a59630cf69f46688",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha188.xyz",
+    "source_sha256": "f33de4f9b4566ab9689b7554c7f9699846f22d75bcd6eccda6ecf68d2f5c89fc",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha189.xyz",
+    "source_sha256": "3be8a7bac8ad2b25d996fe78caf514a75684d3746f624d2b7bf600f168eb9e28",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha19.xyz",
+    "source_sha256": "e3c719b4de7c826cd52d52ac56419b326cc4db1e3be3c69fe986115cb0ae270b",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha190.xyz",
+    "source_sha256": "8a5d5f13cfc8c56a2df4cd5fd8db34ef0e41ff1dc62f362b3d56f735451b9f1e",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha191.xyz",
+    "source_sha256": "20e09c2c627db2f02b4248801c076edc31a69d5bc4d85430d4138b04839ceace",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha192.xyz",
+    "source_sha256": "897dff252a7e099fd5bafd7dd0b9306304c10a1afe57ee3a15ec3e9e1a2ef08d",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha193.xyz",
+    "source_sha256": "78536d1d99df04b66430c3e9ad8518cbab1fad00b1dd34c5d08a82fc5651fe92",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha194.xyz",
+    "source_sha256": "38c51c7defc32792728ae4d917fb70ec6d37a85af749b2b67e622cc9c098a37f",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha195.xyz",
+    "source_sha256": "29d54f9214aac63eb8b4a45056fa0aec417daa27bf9dcb792f794e3da9681d6d",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha196.xyz",
+    "source_sha256": "ec5ac8794e15ebd91dc784fbabae8073b4a3bdb8bf23ba930800138391d447db",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha197.xyz",
+    "source_sha256": "81a483e7cfaa0530651f3ef1648d98ed214c5c9feb8cff120c966b2d8ce69b0a",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha198.xyz",
+    "source_sha256": "44a2ee940c7390c7f455eec117b2a282fd4f1da193fd364fe7f63e06f6dfb416",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha199.xyz",
+    "source_sha256": "187fbfc021c723fb050077c578531eea88d5b0daee83a419cf28cea8f03a3906",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha2.xyz",
+    "source_sha256": "4e2d96f8316fa1cea63172358a5506b3510cb8820b92843eda3058920db18a6d",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha20.xyz",
+    "source_sha256": "49c9a2299b067619097231221429f73f3deb1bcad50483f9b3863e36b889d9f4",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha200.xyz",
+    "source_sha256": "e2680749e4c7fea47d4d0d4b78ae0230b037c2596978f45f8360ddd804cca132",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha201.xyz",
+    "source_sha256": "d30af2e56e00b5cdccfe1e48a4e72a8f9e2f65dec3daf3757e1e4cbd87329858",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha202.xyz",
+    "source_sha256": "0771d7a358c527bf5d5b642a594b68b3686d281fe546d3903c07f173b7e7bc7b",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha203.xyz",
+    "source_sha256": "ed6887a3cecddae96a563eff9450d7b5826d1c2b686f150fff53c5bab181187f",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha204.xyz",
+    "source_sha256": "6efa532d7fb22d1503f4c4135f80b9e3b5e8e0dd0e7fd631e369891e0e0221b3",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha205.xyz",
+    "source_sha256": "9e73599f720d71891dd252292a56345bcb092ffb4a028d94c5a42caf393a8a64",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha206.xyz",
+    "source_sha256": "d6739598d0a6a0d9c93244741b14f61a8ea2a978eed7a00b77e2e2ffd05ee1db",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha207.xyz",
+    "source_sha256": "2bdba923b56bb44e023bf8e007f5f3a96d8ae64426d29203f72deb667b0c5b8e",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha208.xyz",
+    "source_sha256": "15758bf765f3a8130ab215f57c9d57155989ad62d81a80716a1f86a7b357615a",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha209.xyz",
+    "source_sha256": "1bcf7d3c3888995b9c6520c04c1eee3e894460d0b85d29ddf53f8b9e760c57de",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha21.xyz",
+    "source_sha256": "4e2595142c1f84a5445edb4386dd704e0b19afd3bcfe9ae46adae31dad4b8168",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha210.xyz",
+    "source_sha256": "40861a9b141b661b320a1f5fe9ac09fbfc481811fb08d380447576731e6c77b1",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha211.xyz",
+    "source_sha256": "42bb94a42c4325663fcc971695b535b5b87679c6cf87f6b75ffc7a756628eb5e",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha212.xyz",
+    "source_sha256": "dc22025d02d43f1e4ff1d0e7bc288dcd2b053b476fc1bae700f48b5d4c3f543e",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha213.xyz",
+    "source_sha256": "c9f31eeb6b06dd30d9d4b503edf41f804afed572f49617fc4cc20dd62462e8aa",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha214.xyz",
+    "source_sha256": "cf6b422f09fac4658af7bc7faacc7ce45fe26aa4ce659980b36183952b100716",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha215.xyz",
+    "source_sha256": "1892405f0ccf797cc369c7343b4fa9b1c73a9ac6a48565d4b395d5f4f6cd477c",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha216.xyz",
+    "source_sha256": "00a8eb90103b575fde4ad0d4bdae019ddefbb41a1678bd6e4bddd2957c87969c",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha217.xyz",
+    "source_sha256": "112cf31b4831330e7a47f2df476bb9c300d5010de4cc5c1442e51bc77e60dd84",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha218.xyz",
+    "source_sha256": "9348263fc0f1ee18c39abda2bf611bc49c4d28754f8f4e60550d0f25451faf34",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha219.xyz",
+    "source_sha256": "b856a6e8d3d931f85f74a9d38cf9f047db920700d991b7bfc406af4368c46572",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha22.xyz",
+    "source_sha256": "56e65d8e267ff4179b54efb6d64e3cf87f1b8e90118bd29d43d2606560d03b7c",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha220.xyz",
+    "source_sha256": "9cdd904afbc1095be122ded685ef1a420228896f6171497050d4c3aaf957c120",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha221.xyz",
+    "source_sha256": "d86a56d28a6215eba55fffa75276fda0705309b4b5ed5c3611a5c85cafb5061c",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha222.xyz",
+    "source_sha256": "2060734c927fa0a2178253fb2c6fe01296c1bd663231c2c28b6a349ac4738adb",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha223.xyz",
+    "source_sha256": "8735ab3fe48383c0b7597d1e2c38cf86cd6ebd6cd6900def69a4193e07b74d73",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha224.xyz",
+    "source_sha256": "4644d09d5c6e40c7049620f9913399cba5ef75e41e0a3922c9b9707ac59fa2a6",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha225.xyz",
+    "source_sha256": "a03a73eb846b9f3b50a8920361be7b1a8b3e2dc3e54611c6b3cc3b8d6eeddd3f",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha226.xyz",
+    "source_sha256": "e3ccd5cd3760a249a6a12efbf8681ed09144a7679a22c6920a8d377f60d47776",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha227.xyz",
+    "source_sha256": "d15f28184ec3b9fa2bfa56653b044c10a77e307737d0e65b9a700a8ca9a60c1b",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha228.xyz",
+    "source_sha256": "a8981efe24be5b87fd3c7099b95ea906bd74399af2853da12564c20f07e48307",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha229.xyz",
+    "source_sha256": "e16d86bf1c5a10fb45d2034b8cbf581a1aea583cdf54cb2d17d7e3247e0342be",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha23.xyz",
+    "source_sha256": "553c2f0e9d8c6ffc61b07dfec3248dfb5d83ff5e7b88bfe5975d9dffd2e736c9",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha230.xyz",
+    "source_sha256": "1e7bb4158bebf59a72a3a1aa44885309f76e68d80094dc9bff9580ebf3af38ac",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha231.xyz",
+    "source_sha256": "c036bf8cbd68fe2b916b19723ccfd6312d14d7d4966c439eb952324878b1fdec",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha232.xyz",
+    "source_sha256": "aa3842b78c961f8bfefb485f29e0e3599fe7e1e363158d4280c4e8d91d92ccfb",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha233.xyz",
+    "source_sha256": "f2034134bb991c31f77af3b92475a78cef4a839da50c34098d0ea1d54b5eac52",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha234.xyz",
+    "source_sha256": "43dbd049df8d4fbf9b7f63244c1649358516e7af804ab585a4ede866a03ab1dd",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha235.xyz",
+    "source_sha256": "99f00e7b7cb49c3b8b3e1e414e0fd933c4b27980c8bf25fec732536f85d86f08",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha236.xyz",
+    "source_sha256": "79bd55faf41a316014bd2e2004cd9ef331c573576f471bd0fa5ceef6f247be7c",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha237.xyz",
+    "source_sha256": "1ab279470ce2e44a7adcf227943d9bba7aa4856fed9f4512e637cdfb2a5f5136",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha238.xyz",
+    "source_sha256": "727a5865483001bdf1b53ca276a0bf9d6876b5defffa64c915eadd8ac908b1f8",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha239.xyz",
+    "source_sha256": "89c746740c75040445baa8c6e3e259fdca9c27a15908eff7fc5db83ae33059af",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha24.xyz",
+    "source_sha256": "90cee25b36c61f6361d63243c8d87d6e02821cc82e7cb4d09a75cf0ff0c42816",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha240.xyz",
+    "source_sha256": "c80da0a9f071379dcf7e3de72e3462907e0266b7e324c606d7c95a11d1bf1fe2",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha241.xyz",
+    "source_sha256": "1ad0537ccc29705a83671ebe96c2b4eae31ceaeba92e4da8e3c690ca83e1b960",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha242.xyz",
+    "source_sha256": "4715a439c4cd35e7b6658dda13a7f12a6047d373e9c6c2683c25d44a929eb07e",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha243.xyz",
+    "source_sha256": "8eeadefd3dd6807484f41c38511af3e9144326f7d14a7337a98cf315326ff65f",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha244.xyz",
+    "source_sha256": "3ee4fc804bdafceebf242cd2c5e98101d48e0ad0517119b4c1be1f5c8e0dddf3",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha245.xyz",
+    "source_sha256": "1e38c288c115f0f0959597a3e18a568f47cfd39a06477fdac9505cfcf2eeff23",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha246.xyz",
+    "source_sha256": "133537060a76a2266bfb494825191fc155227253e962f14f44f88c6d22457b1a",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha247.xyz",
+    "source_sha256": "8104a6df2b6f181b181c50f49fc05c889b440aca899acb70501190bbdf90b44a",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha248.xyz",
+    "source_sha256": "a214443ce94dd7a3ee11f5793720de38d8ba6a4c0bb2a54d2c8a300ae116d5d5",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha249.xyz",
+    "source_sha256": "eadbd22e953c9aeb6dfd8321d00d9969a67f1d8e707cfb0a8b1324f4a8bbe1bb",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha25.xyz",
+    "source_sha256": "0f5d77671ca74ea6427c2e8d179d288790e7fb904e9863b04eeb035ba3004cca",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha250.xyz",
+    "source_sha256": "8507e3c3520aa8895ff9c084416eaef62704e75e0419f7d674134f4d36ee96e1",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha251.xyz",
+    "source_sha256": "acca04b37875c9faaff42a35cb035b5c845aa59f44aae91d144cde0903c1b94c",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha252.xyz",
+    "source_sha256": "11513bb31e4662f937ea55e9a3f9e76164ad25d426d964d6bcd162110505fc0b",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha253.xyz",
+    "source_sha256": "a5cf678dea62eecd2abc97494a0806584fe5dfcf41663b8aea0eeeea842dbeba",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha254.xyz",
+    "source_sha256": "ec73b64c5f34942461117d773ff75b37c3986f1910dd4af877a3975923e9c561",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha255.xyz",
+    "source_sha256": "83f848aaf9abb4ddea645ea4e7764b39a08d62005806d386f17fa43139bb4afb",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha256.xyz",
+    "source_sha256": "e5f82204fc0c27ae060b44af2a662ebf858f66ca63634b5abefe91314f514c3a",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha257.xyz",
+    "source_sha256": "a39802298c150c1fcf9cff6b24298ee21f6e93dfad43a33a90fbe1def1606a54",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha258.xyz",
+    "source_sha256": "032ca1ad73e74deb0a59ef3a1099fd0604daa97aadb5d7d5975258f1682e61be",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha259.xyz",
+    "source_sha256": "5cd038b291217080b71119323d8d855e79e67acf8eca0858f38cf6ff9c7cc5df",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha26.xyz",
+    "source_sha256": "f748640281b463bdac05c4d0d8cdbd815c81d7185cc1c3feec9592d6901875d9",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha260.xyz",
+    "source_sha256": "1dba3f755c557a2267aaf7e47834b570345c91fece4cec57632c015af0f89248",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha261.xyz",
+    "source_sha256": "7cd2dde2ecc13cd907ce67342e17050272e187a152b5e9eed32a202e90cb2920",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha262.xyz",
+    "source_sha256": "bb26947679143b5f7f23676af98694fc962ec8099252b151fd4d7635a1d11451",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha263.xyz",
+    "source_sha256": "7ab943791ae7ecc08648c138376b4c4e54c8480f20c268939cd432b548375884",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha264.xyz",
+    "source_sha256": "baacbb445f4985e39aa991677fbf98866ca095329d7541e42b9740a3e9b51dc3",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha265.xyz",
+    "source_sha256": "8266ccd8748bb3ad8f699311f348c57e6c0f4715a2ae82bf3178974f50979c8e",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha266.xyz",
+    "source_sha256": "c81f729d3a79d81d5f10cd58b9b28fecdba2584b25cd604c154258736b5728a4",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha267.xyz",
+    "source_sha256": "dd79291e7b09e9d33310ef850baa04afb4fd2eb8a1403abe5534e35783bc68ba",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha268.xyz",
+    "source_sha256": "8fd0101a3ddc163d0eeaec2736c51499334cbc487ec92eb347d08904f0b01aba",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha269.xyz",
+    "source_sha256": "8cb649121a75f70f5b92c45a04fbbd3f046d27dab07cc5d9ca33b644e670aedf",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha27.xyz",
+    "source_sha256": "4ce7391257f0d90a6ad027525e60b1faafa1e3d20030b5577619c45abe01a361",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha270.xyz",
+    "source_sha256": "addd58feab51b08364a0a08fd31e5695f46c2f3dd05d40a0786f915170db96ff",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha271.xyz",
+    "source_sha256": "0bbd0f4a163d26ca320b345d234576d0123ef934a8842449c5d6940d3b0dd5fa",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha272.xyz",
+    "source_sha256": "a8e3e61d3b1b2d80a83dcfc38e44a96be70cbb688b3699321753e54bc6ebb7b3",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha273.xyz",
+    "source_sha256": "7ec08223947d15dc80baa99776d714922b1f70a03305c3f27a983a81459baafe",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha274.xyz",
+    "source_sha256": "16cd35a02c97dacb088c0388d1fd73087e961ce51424c3fd3e1359dbaad2b9a1",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha275.xyz",
+    "source_sha256": "6900778a52c5a4ce03bcefce8156eec5b7c636a0e167f4d06e171462d0fd50e7",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha276.xyz",
+    "source_sha256": "6a9c464e986a35333dcb0a18cfea94fcebc9d76ece90b009869351bb0527b8dc",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha277.xyz",
+    "source_sha256": "c934df83257cf67ca6890a260ba6f8599e14d83b814ef0d381ba3958441555ea",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha278.xyz",
+    "source_sha256": "03a6b13678373d55afff47134e8981fa7699e27885288c032245dbb6a7916760",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha279.xyz",
+    "source_sha256": "20bf68c29759edb851eaf1bcda16a18cb70b21cbcb2041b0ed0b3d1799e1efda",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha28.xyz",
+    "source_sha256": "9dab9a1146ae1ffcef0b0cdcfec10215281bb720866c0246423f2fc87e4c911a",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha280.xyz",
+    "source_sha256": "b6f2b93f0aa5f3ec44c86829c4dcdc5e9f8cf995b57c87f9618d91550c2299b3",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha281.xyz",
+    "source_sha256": "2119e1e078a80ca5279ec0e712d8ffd53aba68988abbdf419b66f0d1fe77447b",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha282.xyz",
+    "source_sha256": "59d4bc882ff5534d25c833a8de73be152a4e9867ee0c00c95a33bbf958edc3f3",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha283.xyz",
+    "source_sha256": "4947dc6ca09e1bd49b6c10687d85beb7967359e3793c77ca8669a2f8ae6ec649",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha284.xyz",
+    "source_sha256": "f7a489169e10a14932a9d16b35fee0a1665d0904c137dc6103bc02621270248f",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha285.xyz",
+    "source_sha256": "bba4f5214f73be69162be8d79bfa850466e638c4b92ea82884c68debdeccc685",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha286.xyz",
+    "source_sha256": "7e3a9b0819b176ab15fd3ed3991b4e2e691bd75b4ca286352e47ede4f4c46124",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha287.xyz",
+    "source_sha256": "dd689dac3b5493e3796fd7e72be862c3a74152e9748ef6ee42126ae460d62b66",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha288.xyz",
+    "source_sha256": "e6d7a6b0ba302ed6b369400935a7d85d8785549ae0b763aadde085fa8e93fa57",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha289.xyz",
+    "source_sha256": "b2c7425edd8d013676b1390374f208d067e6fbd40c13f7a4753ab9c32f0cbbb8",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha29.xyz",
+    "source_sha256": "298801199820319f1451ab6ee9e6ee85bd38a2e226ad3744efaf049db346a59c",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha290.xyz",
+    "source_sha256": "13f84c0802bbf9ceccb183c0a8795e515f9793623e7242a60a84718e6a68e9a2",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha291.xyz",
+    "source_sha256": "69f1105355d71125e3ee3c48bb145760738731342176bea1f6005e9e534e8aa9",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha292.xyz",
+    "source_sha256": "5edcebb15c1fbb65fb2f210a2d8b86087b05bb2b166a61d87bdc37145ec573e9",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha293.xyz",
+    "source_sha256": "1ca016975bb7edde1b679ea5b31b995d2ad76355f53297730bbf2341667d9929",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha294.xyz",
+    "source_sha256": "97b2fac79bb0fc6cc7f8e418c7c8e01df56922212b97e55233cfc613d665f1a5",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha295.xyz",
+    "source_sha256": "367821b5e1b72ecb5564173149ae680274c6a92b63c242f208c258c533dffcff",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha296.xyz",
+    "source_sha256": "bba886d3763092747930cec34075ce89ffe777bcc9c492d546c9f90546496383",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha297.xyz",
+    "source_sha256": "98c508d7c078f33e8d4ed22519fcaf5981de8a8e05fd1f8c01cce56082544d43",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha298.xyz",
+    "source_sha256": "0ef4032c0f28a4a9a2c24780e479956ee41049ccbe715b2114cb2cae538eec9e",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha299.xyz",
+    "source_sha256": "5b045c1d5c9ea5539b99e199dceb3f57fe9e1225c86c7536b796146b3800c796",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha3.xyz",
+    "source_sha256": "b4cd9fa1f76fc9db119c869c9b770b00179b55d5e45e3df6de38b278447ea749",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha30.xyz",
+    "source_sha256": "7d2352a986518fcc17ebdc051af54543ab25554855bc9781c7d4635c7865bb13",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha300.xyz",
+    "source_sha256": "fd88398e91bc46976c18f78bd55786562361e24e2121cc1da8cca3aca1f09c09",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha301.xyz",
+    "source_sha256": "f972712ab685cb5ef7312f4e3f7e0a1be4529467fa9e1b88f283a1eb77914567",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha302.xyz",
+    "source_sha256": "ff131f982fd649abe65cb17be5c6625a8bebaf83443a8bb67708171aae16c8b0",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha303.xyz",
+    "source_sha256": "4653067a444265854ef7e5d65ff4f0b6dc7592b9c314cea11f23d45114844424",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha304.xyz",
+    "source_sha256": "db3c069dc7b1b9479dd5b7138962eef1c66d0ac5ba97439fb9975a49df9cfb74",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha305.xyz",
+    "source_sha256": "981dada33282ab9d99e52512600ee0981a42e8d910dd91a56d6987888c555a32",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha306.xyz",
+    "source_sha256": "2af3a211686c0ae3f75676091e2d8f11f3be530e5d73e55f14eb1baead08705e",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha307.xyz",
+    "source_sha256": "5d0d8bd5b955f084888492e5f52a55036af22f3001381041f092413ac00bd865",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha308.xyz",
+    "source_sha256": "a2dd423f8a12d99996d3f5ad13aa734f45403bb5959d0154200a24ba0b501356",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha309.xyz",
+    "source_sha256": "d73f2939b27fd2f1d06ee04f18c68bd9f7ecef174323b7de3bc5aa3daea63a7d",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha31.xyz",
+    "source_sha256": "7d52efaee40370a9580d4ab304abcc7100cdcb8c7fe15fd048408f979043e4e6",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha310.xyz",
+    "source_sha256": "bfae31de7439dbab86bb5f68be8c2ea4a9f5f1500f12b1a106cf05eb24094590",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha311.xyz",
+    "source_sha256": "27e755059e00abd1036237c6d8a993e2a3ebef77e4c8252a89f13b6668993753",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha312.xyz",
+    "source_sha256": "08ae8bb92f78ebbd0e103345a6ac7c733814be07a559897c621cf2fc94d3f62b",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha313.xyz",
+    "source_sha256": "d4906a2ef86dcd655f7aa8b803d1a34be169b93d096c1b59e4fa00136ad4b7df",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha314.xyz",
+    "source_sha256": "4a54b1da1a14a032653116327af3bf7af45202a73c9e2d0eab2d249935ef83e2",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha315.xyz",
+    "source_sha256": "37d761ec5309c4393ef7517e8d9f57fd5d5aa78ef065409d232b00db6ca45953",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha316.xyz",
+    "source_sha256": "8123fa998c4524c8140b4a2f9f339b19a70e13fab62f3a8a5158ba86e004914a",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha317.xyz",
+    "source_sha256": "9ab1d481f9de7466032e13ed4634404351077251463ab3ffcce946930edbb3ce",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha318.xyz",
+    "source_sha256": "e53bd108d9d31e27d7bd45106c478d7e66576feb95eb60e308c02bceb08a65e3",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha319.xyz",
+    "source_sha256": "c5e5cdfe1b4648744162b5588acd0e21192c844f085dba70925edb9e97a95e4e",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha32.xyz",
+    "source_sha256": "5c50999b777b51ed4ff8eb72e3fb14af1a017c57df943935d62af963abb6f902",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha320.xyz",
+    "source_sha256": "bc3ac1e186b18911e5b81cdbdf6ad31ce061b94d999d5eafa7412b3681d967b1",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha321.xyz",
+    "source_sha256": "22c02440b36faa9fd64aa545d0235b6d3344283ee5311b6cbadd26ce84c89797",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha322.xyz",
+    "source_sha256": "716b40cb63153c9244e897d4246d45681341e655f7cc948f6f6a91ef354700f5",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha323.xyz",
+    "source_sha256": "4a534a932e109d3f777d74d1f3f36ab3e61cb112df7ff6d8f4f3ec115a824530",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha324.xyz",
+    "source_sha256": "feeddf0d00fa7b2cb4da5eedae4c16dd219e0670125ac4aeafc4d992ddb30dc3",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha325.xyz",
+    "source_sha256": "670999faf8fdcb8da21b3effbc80f153b70f4723d970da0a31da1fddefbc28c5",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha326.xyz",
+    "source_sha256": "a8a33a6761e671722a1e49777f26eb718fb72d27327afd378bffa0ebb9a13c76",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha327.xyz",
+    "source_sha256": "ae35f9623ffc850271036d52cc0e35b7f24f601b69fb04f50697e2fc141a2c08",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha328.xyz",
+    "source_sha256": "385e21fd325bcdfd705307a4274247dc407cc8812ad62cf46826c3c33484b715",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha329.xyz",
+    "source_sha256": "40c241546715c4b5c6350ff49c31caef8c044792aec05e38f778fbb89763ecfd",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha33.xyz",
+    "source_sha256": "e533436169f4fe093f1534722388b9626be90d15232b1273204208847332fa8c",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha330.xyz",
+    "source_sha256": "8e2b6d3e37559ee10e03c806403ebd58263d9e86ad9d0a4886bfb11978161a83",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha331.xyz",
+    "source_sha256": "56f0c344d0042a898f84e3aca735fc6e0d9d29f7c1418b2416f6f26a0f734ef6",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha332.xyz",
+    "source_sha256": "e03d10f25e48a08c01ce98d90e7c2fb5d74752a12e49c6f97fa3e647eb959056",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha333.xyz",
+    "source_sha256": "7e8b093035ab4e99886d70a4c7d119ffb94c508e23c686159f071b0fa6ca12b0",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha334.xyz",
+    "source_sha256": "54907e569e485bec9ebf875ff59362cb5e2f3f700e1441aaa16157996687b22f",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha335.xyz",
+    "source_sha256": "c0f11a1f8618a1605f5af687d88e1e7676f0a38b92e633f5bbc4670552e47ef5",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha336.xyz",
+    "source_sha256": "b1888e6df682f1ab0435e418f45fc803c83d62f05ccf626b2c8446c2031ba586",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha337.xyz",
+    "source_sha256": "3ccf31abfe633386caa7b6034ea2fa5d3eb89ca4388245f0bb3595270da4218a",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha338.xyz",
+    "source_sha256": "90c45a86f9335e3447f39ce43da511c695be0716bffd29e9ef15c1b16c27af43",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha339.xyz",
+    "source_sha256": "078da13047ecbcb4809fc279d08f4638a02dc4a70466336a93fa14868427e1f4",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha34.xyz",
+    "source_sha256": "edf9ce12b9666e805152567b1cccaa3f03e6c7ffb69e8541d1c6f4d4dfa6c566",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha340.xyz",
+    "source_sha256": "f529b26536c0d3bd794aed8ea0b22eaec65e9d21509782cd21ab28f93c1fb2a4",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha341.xyz",
+    "source_sha256": "db9aeaf602603f2d578f94cd4aee19daac245769171dff791517b09867649d9a",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha342.xyz",
+    "source_sha256": "d50a3179a992f05a2eba7054dd0071b07fbcdb098e678058bc5d1ec343b94bec",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha343.xyz",
+    "source_sha256": "1b641470eb1f2f12b3a6b1d2de5d47b044fab3a078384912830ce5b911f6c82f",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha344.xyz",
+    "source_sha256": "c6697de2fd367a62c56117bceaa7724e2dd9f3c94668d338d35b1e5eac9e41f8",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha345.xyz",
+    "source_sha256": "31110c24dd4db0f97375a059ad9c3320ab656ffb2b51b62c71433c108a46c1b6",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha346.xyz",
+    "source_sha256": "fb566dc431fe034c3b525d5eb0be049038d2e0e2f6537435607d3c3e0c6392a6",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha347.xyz",
+    "source_sha256": "833160a05da13952bfa20dbf23cea3b2bfac92241ad10ae28b6c81ae43923cff",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha348.xyz",
+    "source_sha256": "70ed60f6ab58a9ef1ce4d9a7f04657b86d6477ce111089714d2d9debe33b16c8",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha349.xyz",
+    "source_sha256": "6c6c5b1ff31f4d46e0344c7f9597affb7517b9def31189b79c6f5f8cc7a43542",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha35.xyz",
+    "source_sha256": "b0450e013cdd06d4a1f6b45dc1235b4d2cb75d20748dfe63a7d8d4c603097252",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha350.xyz",
+    "source_sha256": "8e437182e7892ea658402c8773b388438ae36d0482f6c55fa2a312ae5ddcb668",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha351.xyz",
+    "source_sha256": "1d3f337760cc29f12462b949307e4c3a835ddf73e93d4e39c51067299315ab75",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha352.xyz",
+    "source_sha256": "70aaefffd76357e33b7383727eca36b126a291c3f8b3ba3b245bf69c16532e9e",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha353.xyz",
+    "source_sha256": "fcc4a30f988c45eacd9522b75b999d95a9106d0e31b51fcae5d8c7c110133f7a",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha354.xyz",
+    "source_sha256": "47418469d49e6a6c75b20fd7ead089f94f7372a959a70e5d9a01aec23ee29065",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha355.xyz",
+    "source_sha256": "9325d8f5365843d954a21db118d37ed82064358e9b193992fcb52fba55022cb3",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha356.xyz",
+    "source_sha256": "49c7e3ed4d0c3c484f480fa05e639b99002f885f084e5768eb23f45de94be33d",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha357.xyz",
+    "source_sha256": "763e85eee3186ab7f8a77c59ee6608631f396a90e910aff83d4568503c20ddde",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha358.xyz",
+    "source_sha256": "7d99d99b47c4336fd6c7077bf15cb250ef33b277d5620d422f877a6c5914ba41",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha359.xyz",
+    "source_sha256": "83d688ff356b587268059df92cbf1d412c5d8bba3950a2d0b132411327196f1b",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha36.xyz",
+    "source_sha256": "6ad0c3d1eda3c1a8b14675417f8cd78be2e690b3109247b8cc4bf171f058f59a",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha37.xyz",
+    "source_sha256": "bcedece793f2f7d578db2e76c117df4352f0bf5842e0daf8608b994b927260f6",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha38.xyz",
+    "source_sha256": "daa75761928678b1d23685012f3934994431bbff90464454c2179b6b02c1dea6",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha39.xyz",
+    "source_sha256": "c8e490662bd415ff228209d142ccf8907d42792d0d1c8435c89e4833f9af6c81",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha4.xyz",
+    "source_sha256": "2200f2a8b3de536ba5e486012713685b1e33b12d362e5a3145e50dda645a3db8",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha40.xyz",
+    "source_sha256": "1d779d00a6e2f89718c637b9f11e1b07aa5c6e97c6626bd42de1363fca12cc21",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha41.xyz",
+    "source_sha256": "8d075981669699cd86ff093c4941ff916af7666f1198d04dff6fe36a0fa6a964",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha42.xyz",
+    "source_sha256": "8761b534460eb474e3205011b1a64fb7f4dc796b8d5131504290f35fd4951416",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha43.xyz",
+    "source_sha256": "702b8a773f1483eee1d28627ab256d894092b23413be341b7ef911a77b11d982",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha44.xyz",
+    "source_sha256": "b5921e5adff9d03b45f1cd8cbbeef86235af60943105f7c643df9498528e9b4d",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha45.xyz",
+    "source_sha256": "1a13f0e4c69545e56093d908f5304317c6038a73212406e4dcd67007dccab796",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha46.xyz",
+    "source_sha256": "bca96b161afbe7e8ab5865fb6e9fb67917e018ba0a78b03299466af6cb5d5de4",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha47.xyz",
+    "source_sha256": "ae7b8ecb452351d978a761bdab74d29aa99cce22d09fc9a25eb9e086ee8b9ee1",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha48.xyz",
+    "source_sha256": "3440059ddb7affa7a40bc222e095355e47910340a5121b1da9ba0e0221a0d156",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha49.xyz",
+    "source_sha256": "d5ba72ae07b0d5978294f7abe6af950d13a619d99e4808dfc29d4bc2f8132ee3",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha5.xyz",
+    "source_sha256": "c901883d628869db9778114020e6e85d2d9252f9ac50d0fca77f19e35bd56c19",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha50.xyz",
+    "source_sha256": "d3a1af0a7491764057512078c60c6d335755a20f437bc9a22635590e7191206e",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha51.xyz",
+    "source_sha256": "c5608fab6b0b546a851837b6eb110e337fc274a392da4d8e31f2f79d5e7a98aa",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha52.xyz",
+    "source_sha256": "1b39c79ba714ac45124a6aa31ee231a9888687431dab071ead0d025515d4cee0",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha53.xyz",
+    "source_sha256": "e05822e9a6ccb77fb69b18cbfe1147467f1b5033053d42d141565cd75f390bb5",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha54.xyz",
+    "source_sha256": "badd6b29d68ef63572bf68a9eaebf53d2e24e955197acfdb8df0c02d8b674430",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha55.xyz",
+    "source_sha256": "cc691dbccec384b18cfb287ceb5dd1ad1cc142f2e95dd5cf31cc1bfd13968df7",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha56.xyz",
+    "source_sha256": "2d788e50f7f57d1ca3edeabbd01fb416f18ba475e11604950083de7f40856992",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha57.xyz",
+    "source_sha256": "6dda6d8b1aba54fcca16594835f0f0fa8b2ee4dbad0eb6dde4f58c358bbb0a66",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha58.xyz",
+    "source_sha256": "730e2fc1b6515938974731d2c75ad4071750b063eb3b20d545bc7d795d406eb0",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha59.xyz",
+    "source_sha256": "231fdcd602a77a8291492a55bd0c0e46275ed6ced737d51eda0b42dfd70dd18c",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha6.xyz",
+    "source_sha256": "ba303b3dafcbe2dae559a71eb2fcd6345c67eae21f4c4b94c7277798d89314f1",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha60.xyz",
+    "source_sha256": "0ea4072b70709fc26be02a4c2ac6a437d9d65d1276d390df9e0f827dc65ee465",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha61.xyz",
+    "source_sha256": "26e76e2dca4a88a9892c69c16ed12d79c68d809e26681a9845da5069e9ae8bed",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha62.xyz",
+    "source_sha256": "5ff88604b5420c29177c3da95f5342789ecb4face9f6e4fc19cc8d50a4bebf62",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha63.xyz",
+    "source_sha256": "891fd186b2a450389de3b6864f2f93e5b96459222ead2e403c351b03eb773a7d",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha64.xyz",
+    "source_sha256": "fc9372bc18489955bf96131cd9e4d05fda6da6748de91a8ac559e0901a920c4e",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha65.xyz",
+    "source_sha256": "20069c20f84d773e72a97c6fe7c7ee7a1f2f8ad1eeec944427d338a4131cda85",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha66.xyz",
+    "source_sha256": "9e9c5c006555ca0cf0450c7e8b65553eefbaab9756877c856048cb3415bf36f7",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha67.xyz",
+    "source_sha256": "ed6fc03ff92d0741233884921f86c095d2e5613440300677daff6da567ce43a6",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha68.xyz",
+    "source_sha256": "fd3a5ac801f55cd012f06dfcf53ffdc21c4b25f5b0c668a646a5cab04ce25678",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha69.xyz",
+    "source_sha256": "2df27d1a605656babf4a491771292ef07de3bef8d268454854e63fed7451dae7",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha7.xyz",
+    "source_sha256": "b96106c33460e40c294f52ca0629f74ff8a27c085e348185ac67e70c414c11a6",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha70.xyz",
+    "source_sha256": "d97d9b4f9840ac93b2443eb295d73a74041be43fec454467533f1279b89983df",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha71.xyz",
+    "source_sha256": "3a299083b3103e9b048731380541e80c2d5f022ece5abb74f270fc39f15cbabd",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha72.xyz",
+    "source_sha256": "0e9895dfecc7bb9a8091a1aea623008eb394aa19c0433ec67f27ee7c71217cab",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha73.xyz",
+    "source_sha256": "974e6e1ceed513ac121deffb122b0faf256bf02b6d94840444fe3ec65e36f148",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha74.xyz",
+    "source_sha256": "f36e300fd0691abb9f095ceeb8a2d4067ce2c8851c6b7d892f7178be24d9ebcc",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha75.xyz",
+    "source_sha256": "00fa396b09230dea94880affb32afc8ea20d450440b01a763d0d2e30f8238ca6",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha76.xyz",
+    "source_sha256": "4e2b90e28051cc163ca83eff9427a34505b59dd9cae52a152ed66746df1825f7",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha77.xyz",
+    "source_sha256": "5f4d5ba8c49b87ba465f8ef5cc53f5d2719015f491664b6c82c5bd45a4986beb",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha78.xyz",
+    "source_sha256": "f633d382f049fb0b33a5f392cc6c3d4b4d9b73f8a0f4d19d106d939aec6c0850",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha79.xyz",
+    "source_sha256": "e9bbd8d5cd2a9c17d746fccece5eda8d9a2be37990a66c37af9366331f89fd70",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha8.xyz",
+    "source_sha256": "d9c4c9f7f3fde70aed66fb3f32e5775239bee7039e1a5553ea986352c6f40deb",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha80.xyz",
+    "source_sha256": "d78c135d61bed203dddad43f434dd67961420375367b9edc310e971d6db38b05",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha81.xyz",
+    "source_sha256": "fa09f48673d76f01ae07a41583dd64c950f171487284b1616dce56b882058905",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha82.xyz",
+    "source_sha256": "e6bfd21694d6fd8b3b1ebf0796c0fafdb366d7af976e4c140d08fced33ac530d",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha83.xyz",
+    "source_sha256": "db1ce4a59973e04ab834e59866204090fa007d94fb097a3e217661a2be73014b",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha84.xyz",
+    "source_sha256": "2fcc04c4ac4a5512a03864c6b9c1200f54701ae5a127195289404cd0f825bc4d",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha85.xyz",
+    "source_sha256": "503581f852ed3930d9f118ab018ff19d9e430a4507d6354eb530e97b330941bb",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha86.xyz",
+    "source_sha256": "2835c782ea990a3e94c0db2802d456a7f9d3824679c36ae8d4eaa35baaa0d43a",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha87.xyz",
+    "source_sha256": "6462bfbe9a5bbfbc7be8f35043400befab6a4de6696cc4d59e0d26246e202d75",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha88.xyz",
+    "source_sha256": "7731efed7f7fe0927024ddad9ec62ae1d21c5fb2e570ba4bd4921b1a0d8eec71",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha89.xyz",
+    "source_sha256": "44956772b3f9ecc048b54fc7f9dac8a7beeeee3aeecb57e9a6087a05935da136",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha9.xyz",
+    "source_sha256": "aac0d65a1db68613770bcfa70e723f9ef86d9ff25c9bf447d38b98ba3f61c33b",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha90.xyz",
+    "source_sha256": "df4ed4c5cc381c7d2f1a198ab58cef1d02b46db19b009ff71d06e3c978a56dff",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha91.xyz",
+    "source_sha256": "eaa09a610baf4a00f94c0a5ab0f7e093408aff24a692606d2faa1a1c917afe44",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha92.xyz",
+    "source_sha256": "e9e333722878568705b460d1f2690ccd57d40fdae8ee5057e2e819fb301754a0",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha93.xyz",
+    "source_sha256": "523e623bdfd89869c23895dbfab1dda34ec37973319d60f81909e608b89153c0",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha94.xyz",
+    "source_sha256": "0481b6fb2bf777fffdf416cc3976225852eecbf0e64b45541deb1b625f710410",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha95.xyz",
+    "source_sha256": "067a30f796daeeb059e9ab6cf20f5e8cfa422bf9f4f1e4ca5eee385fc1e746fa",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha96.xyz",
+    "source_sha256": "b9a21230d081d2607605b5369e7a5fe394a9ed31745c4de7bedcd061550f8c2d",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha97.xyz",
+    "source_sha256": "61d46ae2bd287c0de1adf94e0f87505eddbc55734df81dd8560c019c19fea71c",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha98.xyz",
+    "source_sha256": "e0c734d202eca1e84d35c5225ebbf451a0682a8bebc37a6096555a4ea4dec98e",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/water_rotation/Dy_DOTA_fullsym_alpha99.xyz",
+    "source_sha256": "a0f826d16d78b1e5abfaa1699b8a3f00259194c2ed9d9f033ffae428bd22f138",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/lndota/UPSTREAM_LICENSE",
+    "source_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/p97/matched_coordinates.npz",
+    "source_sha256": "7f5093f14305f2732b4c487ee1ef7f4a592edfc982bdef9678fed9a47cb12f97",
+    "transformation": "lossless NumPy recompression; arrays unchanged"
+  },
+  {
+    "path": "datasets/p97/deposited/8FCL.cif",
+    "source_sha256": "c823ca72af818e47b76b7655a93c62ab65060fd7ecd8dcab70ed8ba02638c0a9",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/p97/deposited/8FCM.cif",
+    "source_sha256": "9b784ac80dfbb2f0ad73544b3bec8184eb22c4d8cd2411d53161f1639cdbd82b",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/p97/deposited/8FCR.cif",
+    "source_sha256": "b2d2ad4092005d187148ed999bc194684532ac763fec1ab20018b8c46b360b76",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/p97/deposited/8FCQ.cif",
+    "source_sha256": "4497a5ca1c1038b3aa4f51fa82a8cd8ed4c80c022d186622b706d6ae1dbabca1",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/p97/deposited/8FCO.cif",
+    "source_sha256": "138d5173235c2435d23bb51b64577dd108d97e779b74259f847bf3e27c4554fc",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/p97/deposited/8FCT.cif",
+    "source_sha256": "8fc8aa15ce7e63bea9924f37583f2f764cbedc976d1830da5ab928a858f976be",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/ha/deposited/6Y5G.cif",
+    "source_sha256": "8d26fc73637052881ac3b1acce8a4e507de2a9040f74b4742a5f1d364821ea01",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/ha/deposited/6Y5H.cif",
+    "source_sha256": "a4ccbd1776c9aaf46026586ba6ee7bf10bc50b3b179ea7ccb75b422f1bec5b2d",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/ha/deposited/6Y5I.cif",
+    "source_sha256": "efe75bbc18da8b9979bdded717e73711e73e3840d9d0f35246ac7f5b5e690499",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/ha/deposited/6Y5J.cif",
+    "source_sha256": "6fdfe08d1aa1996d83ff2d06379374f36d8fea5675a4bc015e6322073b6ed73c",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/ha/deposited/6Y5K.cif",
+    "source_sha256": "b20d7510483ff0118c8aefba2a9c6d064ab226efaf7aff5360ed7fc728c54686",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/gluk2/common_coordinates.npz",
+    "source_sha256": "a7eddf69b69304b9ab4a19d8b58cfcb7368890d219ac56a510b4fc48b2e66f9a",
+    "transformation": "lossless NumPy recompression; arrays unchanged"
+  },
+  {
+    "path": "datasets/gluk2/deposited/5KUF-assembly1.cif.gz",
+    "source_sha256": "df358ef63f9c28beabd658bab7db76dcbaca66e6a3f236b56db8c69578571462",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/e18/deposited/6HBH-assembly1.cif.gz",
+    "source_sha256": "c333c39cabad76c5cd87e0c565b7a761632d16cb20719cac4247d3c11055050a",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/e18/6HBH.npz",
+    "source_sha256": "8431a6ff40b41528b6c8a7550c0ef14423d349b610845a5b1411d95d7cab2eff",
+    "transformation": "lossless NumPy recompression; arrays unchanged"
+  },
+  {
+    "path": "datasets/e18/deposited/6HBK-assembly1.cif.gz",
+    "source_sha256": "20fb991f9ce1d574c1b2c27948e472caf62d3e66ce9c6144efe819ab2a81bbd2",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/e18/6HBK.npz",
+    "source_sha256": "3851ebf8177e48d4f0fbca153372ef86a3da1769852b12aefde73c52997978b4",
+    "transformation": "lossless NumPy recompression; arrays unchanged"
+  },
+  {
+    "path": "datasets/e18/deposited/6HHT-assembly1.cif.gz",
+    "source_sha256": "a6daf6a5755076bcbf3258d4f4af3f1060f5e2305de0a84047fc986d69211704",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/e18/6HHT.npz",
+    "source_sha256": "70cb74fb781115a04e53df257bbf2decade3d6ad17d1d87a370499d1a1931783",
+    "transformation": "lossless NumPy recompression; arrays unchanged"
+  },
+  {
+    "path": "datasets/e18/deposited/6HBL-assembly1.cif.gz",
+    "source_sha256": "775ce80151861702d0febcfe6e7ad08ec579ad6723d2b2a0a038799320c4614b",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "datasets/e18/6HBL.npz",
+    "source_sha256": "05810ac15e23073306d35cfe8d4c7a37d7045a3e42b790485013b5ab21afb304",
+    "transformation": "lossless NumPy recompression; arrays unchanged"
+  },
+  {
+    "path": "checkpoints/toy/hegnn_pretrained.npz",
+    "source_sha256": "80c1bbfa428aac0bcf4e48eeb1162c54a548dc51e6f84facf94ddd0a7ac56817",
+    "transformation": "state_dict tensors only, unchanged; optimizer, callbacks and training logs omitted"
+  },
+  {
+    "path": "checkpoints/toy/hegnn_supervised.npz",
+    "source_sha256": "a53d7d7bed1b6b9d76b4cfb50425bfc457be16c2497bbc5669efc55ed2bd8eab",
+    "transformation": "state_dict tensors only, unchanged; optimizer, callbacks and training logs omitted"
+  },
+  {
+    "path": "checkpoints/toy/tfn_pretrained.npz",
+    "source_sha256": "33a95f2b86a585932aadb15b415bdcc7dcbf9b35ffa1225cdbd4cf2cd474faf2",
+    "transformation": "state_dict tensors only, unchanged; optimizer, callbacks and training logs omitted"
+  },
+  {
+    "path": "checkpoints/toy/tfn_supervised.npz",
+    "source_sha256": "c4c29d574b50bdc798db8b028476090e29771b45890bbc29e86ff87083508876",
+    "transformation": "state_dict tensors only, unchanged; optimizer, callbacks and training logs omitted"
+  },
+  {
+    "path": "checkpoints/toy/mace_pretrained.npz",
+    "source_sha256": "0ca238b7c8e17690760282523a3eaacd36c0c3d2cd0670b51af0cdeb30d7c364",
+    "transformation": "state_dict tensors only, unchanged; optimizer, callbacks and training logs omitted"
+  },
+  {
+    "path": "checkpoints/toy/mace_supervised.npz",
+    "source_sha256": "de0d7472209e69f5752139307df96182aa1fc42903e22456a5ee1e856bac9141",
+    "transformation": "state_dict tensors only, unchanged; optimizer, callbacks and training logs omitted"
+  },
+  {
+    "path": "checkpoints/toy/equiformer_pretrained.npz",
+    "source_sha256": "6513d6e4a814a4dfefbfd46f08a63d61add3938099d6ddfdbf665de12ec3d5ca",
+    "transformation": "state_dict tensors only, unchanged; optimizer, callbacks and training logs omitted"
+  },
+  {
+    "path": "checkpoints/toy/equiformer_supervised.npz",
+    "source_sha256": "e915a38dc8ef21fcc5f3785839e53e1f895d8ebcf6bd7c51fd25ee9ae3723c00",
+    "transformation": "state_dict tensors only, unchanged; optimizer, callbacks and training logs omitted"
+  },
+  {
+    "path": "code/baseline/engel.py",
+    "source_sha256": "e5583b4de9676ef1065d2b7b0b60f16d1532bf71a7394116309a4e6ba4d38aed",
+    "transformation": "byte-for-byte copy of the synchronized Engel implementation"
+  },
+  {
+    "path": "code/baseline/engel_orientation.py",
+    "source_sha256": "0b814302200c78dc91cefe70d5d1f305ec527e8b0b45350e2e5ba664b58091cd",
+    "transformation": "byte-for-byte copy of the synchronized Engel implementation"
+  },
+  {
+    "path": "code/baseline/engel_point_groups.json",
+    "source_sha256": "b3429007b5bb43840e8910522a4ef0a3d481a1702f0a64ca107d662e9d4dc7fa",
+    "transformation": "Double-precision crystallographic operators in the benchmark target frame; orthogonality and group closure verified"
+  },
+  {
+    "path": "demo/README.md",
+    "source_sha256": "518b40cc8b638f2a45f8274c36e4907e3b397d3ca8198e92e4ad6364d3590388",
+    "transformation": "Unify all four reviewer notebooks under a CPU-only NumPy/SciPy venv; document live float64 calculation and cached-result notebooks"
+  },
+  {
+    "path": "demo/angular_modes.ipynb",
+    "source_sha256": "aa63aeb8d6733d4873f1d6e0165480f53014fc3c06e784516ee96192b65fb68e",
+    "transformation": "Adapt repository/code import discovery; stable cell IDs and cleared outputs; use the CPU-only SymFP demo kernel; preserve plotting and cached results"
+  },
+  {
+    "path": "demo/custom_structure.ipynb",
+    "source_sha256": "6de58ffd1f5f7eb6f4253caa26f7434b6e22edb209da3dd83aba1f6e1a773541",
+    "transformation": "Adapt repository/code import discovery; stable cell IDs and cleared outputs; use the CPU-only SymFP demo kernel; preserve plotting and cached results; switch the live PF calculation to NumPy/SciPy float64"
+  },
+  {
+    "path": "demo/data/dataset/mode_separation/AX1_pucker/meta.json",
+    "source_sha256": "06744fee0ee5a0c6b9754d222fdfe6eee736b32592d3e05cd102a0cc654ea8aa",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "demo/data/dataset/mode_separation/AX1_pucker/positions.npz",
+    "source_sha256": "9e6b73c0da217ea2c37a3f63b57fcc285b6e6cb05fa797b139f073438e59b518",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "demo/data/dataset/mode_separation/AX2_spiral/meta.json",
+    "source_sha256": "72e8ef358e14878c4edc22b1a37d74489100b3b1f8487104e5999a320f674087",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "demo/data/dataset/mode_separation/AX2_spiral/positions.npz",
+    "source_sha256": "bfdb7457007e86b8ef0cf7868f4c1e601caaa68d5533441d4110117be2ce5b63",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "demo/data/dataset/mode_separation/IP1_ellipse/meta.json",
+    "source_sha256": "8e8da1cac079ddcc9253d1655f11d2ea78e67daa1a3266b1757901d8d2a35e08",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "demo/data/dataset/mode_separation/IP1_ellipse/positions.npz",
+    "source_sha256": "17466190d353410153d43d5e063641e804b1cec8bed5629f455a19f3d16d29d0",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "demo/data/dataset/mode_separation/IP2_radial/meta.json",
+    "source_sha256": "6f156b39f5c8ce8811738255e002c6ee070a15b8c44f5dbc6bea541dea197142",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "demo/data/dataset/mode_separation/IP2_radial/positions.npz",
+    "source_sha256": "fc3d870e1ea1a63eb1f29afd631ba89b56bd993e529b6a93701ab85610ecb47a",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "demo/data/dataset/symmetry_breaking/B1_octahedron_tetragonal/meta.json",
+    "source_sha256": "53d006b181c7654c16cdd8150f3741df5111a9f09204b796ec0a46ed5f7cf40d",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "demo/data/dataset/symmetry_breaking/B1_octahedron_tetragonal/positions.npz",
+    "source_sha256": "e19fef686ff97aa2f9d9efde189bcb59779bcf933004152c6cba1031aa32f9a9",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "demo/data/dataset/symmetry_breaking/B2_octahedron_trigonal/meta.json",
+    "source_sha256": "50bdbfd12717940156f18ea5f9f2975597e18c53f6f5c1dcb450a7fc3f6688db",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "demo/data/dataset/symmetry_breaking/B2_octahedron_trigonal/positions.npz",
+    "source_sha256": "0db619ab4a468fe154b7f706ce10f9310e22bf91a9c4ae0952e144f8be65bf91",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "demo/data/dataset/symmetry_breaking/B3_prism_axial_chirality/meta.json",
+    "source_sha256": "f36a1537a6caf852ce3a995e01b6a7ed3ad27008af8917c201cee9557b7eec33",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "demo/data/dataset/symmetry_breaking/B3_prism_axial_chirality/positions.npz",
+    "source_sha256": "35fd7d30c1110a66ecf74609d61550ae1dd2b292f86a303adce00a58319b8310",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "demo/data/manifest.json",
+    "source_sha256": "d20ff1d8d2a30302342ca8d83fc83796b157c6cd0dc8e79623767a5180ccc9d1",
+    "transformation": "Refresh checksums for normalized CSV line endings; preserve original source hashes"
+  },
+  {
+    "path": "demo/data/results/mode_separation/mode_separation_frames.csv",
+    "source_sha256": "465a17f504466dbcd0ccae0f179e6b2f9f30abe8d9991dee36a07f4edd9caa8d",
+    "transformation": "Normalize CSV line endings from CRLF to LF; all parsed fields unchanged"
+  },
+  {
+    "path": "demo/data/results/mode_separation/verdict.json",
+    "source_sha256": "a1ef7ca51d85643bf1eca24ec70fea2b1a93984ebd41397d69d7ce8cd0e6b32c",
+    "transformation": "byte-for-byte copy"
+  },
+  {
+    "path": "demo/data/results/symmetry_breaking/records/B1_octahedron_tetragonal/symfp_singvals.csv",
+    "source_sha256": "ecdc473aba46b50a49bf36eebd6d8e1d1730760c8432520f43888655ede5d56d",
+    "transformation": "Normalize CSV line endings from CRLF to LF; all parsed fields unchanged"
+  },
+  {
+    "path": "demo/data/results/symmetry_breaking/records/B2_octahedron_trigonal/symfp_singvals.csv",
+    "source_sha256": "e929cae6f8957f046d73d7d99c9ac77974c6165f28e8d6f7ed6515c4de463617",
+    "transformation": "Normalize CSV line endings from CRLF to LF; all parsed fields unchanged"
+  },
+  {
+    "path": "demo/data/results/symmetry_breaking/records/B3_prism_axial_chirality/symfp_singvals.csv",
+    "source_sha256": "7b9ca08e4d5167296d10d3a5fbc26d3ac2f268e9634d92c5710f47f6af8a5d6f",
+    "transformation": "Normalize CSV line endings from CRLF to LF; all parsed fields unchanged"
+  },
+  {
+    "path": "demo/data/results/symmetry_breaking/records/C1_octahedron_descent/symfp_group_leakage.csv",
+    "source_sha256": "ce2362509ea2a2fcbabfeb062d0415763f57498488d991b5ef2b1bc6cd29097a",
+    "transformation": "Normalize CSV line endings from CRLF to LF; all parsed fields unchanged"
+  },
+  {
+    "path": "demo/rank_activation.ipynb",
+    "source_sha256": "14a2289943f2e4e8b4550b27d66320e7180d7dced1ff22cf2db8416d0e844b2a",
+    "transformation": "Adapt repository/code import discovery; stable cell IDs and cleared outputs; use the CPU-only SymFP demo kernel; preserve plotting and cached results"
+  },
+  {
+    "path": "demo/requirements.txt",
+    "source_sha256": "bb2a86c7d1e2007068d9b6c5e68bdb8caba9b318256735f8093c98fc2bd2fb50",
+    "transformation": "Add SciPy 1.15.2 for live spherical harmonics; no scientific training dependencies"
+  },
+  {
+    "path": "demo/subgroup_chain.ipynb",
+    "source_sha256": "8b924246cf6780b4d4fb498e3f78f7699162846cf07d21be9d22ce9c6ff529d4",
+    "transformation": "Adapt repository/code import discovery; stable cell IDs and cleared outputs; use the CPU-only SymFP demo kernel; preserve plotting and cached results"
+  },
+  {
+    "path": "code/utils/demo_utils.py",
+    "source_sha256": "207bc1f64d88a91d77ea9ae789634d33b1cc6adad0004dfd9412b342fcc97824",
+    "transformation": "Adapt data-root discovery to research and code/ layouts and report the NumPy/SciPy demo environment"
+  },
+  {
+    "path": "code/utils/demo_compute.py",
+    "source_sha256": "ab7e53377ecc1d3843c1fc58efda49fe61474f6f9dd2470408c4b67a6489225e",
+    "transformation": "Port PF hybrid features and spectral readout to NumPy/SciPy float64; preserve radial weights, centre mask, channels, harmonic normalization and leakage pooling; tabulate the same 32 natural-parity rank bounds"
+  },
+  {
+    "path": "code/scripts/benchmark_symfp.py",
+    "source_sha256": "7e43fc39d906b94ef467ec614cc13a5f0841a894da237d76c6c469ad53362ee7",
+    "transformation": "2026-09-25 computational timing update: measured SymFP data and frozen inputs; harness adapted to publication paths; baseline measurements retained."
+  },
+  {
+    "path": "code/scripts/computational_efficiency.py",
+    "source_sha256": "6bf9e3adba8380914efa5718ce0bcf264aa7df99b013bb48bf522893531fa242",
+    "transformation": "Portable input/output paths and description; measurement routines retained."
+  },
+  {
+    "path": "datasets/computational_cost/dota.npz",
+    "source_sha256": "8c910d13427e9ac7e6d561fc8e4cb4e1487d49dad0b087db472578d68d251d88",
+    "transformation": "2026-09-25 computational timing update: measured SymFP data and frozen inputs; harness adapted to publication paths; baseline measurements retained."
+  },
+  {
+    "path": "datasets/computational_cost/expected_scan.json",
+    "source_sha256": "15be5bbf14a4e4b39d7be2f659ed8b503f20a5c6b4ddf65c3b3cf77067a5f8b4",
+    "transformation": "2026-09-25 computational timing update: measured SymFP data and frozen inputs; harness adapted to publication paths; baseline measurements retained."
+  },
+  {
+    "path": "datasets/computational_cost/ha.npz",
+    "source_sha256": "f6271a9cd668de0c03d426e97ccd17fb83fe590fab52c5ddcb205f4630a1d2e4",
+    "transformation": "2026-09-25 computational timing update: measured SymFP data and frozen inputs; harness adapted to publication paths; baseline measurements retained."
+  },
+  {
+    "path": "datasets/computational_cost/p97.npz",
+    "source_sha256": "30ea59e5a7fc39ae20a7977c061b379c0aa747403a5ff63ee01c16e1022b1159",
+    "transformation": "2026-09-25 computational timing update: measured SymFP data and frozen inputs; harness adapted to publication paths; baseline measurements retained."
+  },
+  {
+    "path": "datasets/computational_cost/scan.npz",
+    "source_sha256": "7f5093f14305f2732b4c487ee1ef7f4a592edfc982bdef9678fed9a47cb12f97",
+    "transformation": "2026-09-25 computational timing update: measured SymFP data and frozen inputs; harness adapted to publication paths; baseline measurements retained."
+  },
+  {
+    "path": "datasets/computational_cost/windows.json",
+    "source_sha256": "31fcf7323f495033f67bc60cfd9a42dfc704812d911fe14fc7018f5c79034aec",
+    "transformation": "2026-09-25 computational timing update: measured SymFP data and frozen inputs; harness adapted to publication paths; baseline measurements retained."
+  },
+  {
+    "path": "DATASETS.md",
+    "source_sha256": "01f9311bdbb3c17e24896bf8e79eeba7549ff9864f9ce3d5e329c341d4dbecbc",
+    "transformation": "Dataset conventions and source accessions retained; descriptions of undistributed results removed."
+  },
+  {
+    "path": "checkpoints/torsion/equiformer_energy.pt",
+    "source_sha256": "1fae1d35004e20c56a1f3714e6e15bd67d888f383a7f214569ff8e34a17ebb72",
+    "transformation": "Byte-for-byte copy of frozen torsion pretraining bundle"
+  },
+  {
+    "path": "checkpoints/torsion/hegnn_energy.pt",
+    "source_sha256": "8ce9cd527e5fc85a4aca3271ea32781d6ebbbb98b7a590990ade0fc6ba1028d3",
+    "transformation": "Byte-for-byte copy of frozen torsion pretraining bundle"
+  },
+  {
+    "path": "checkpoints/torsion/mace_energy.pt",
+    "source_sha256": "7be710e0f539fdad78114309d4b8ee40caa1104b810c2898337b2015f3bbc4d4",
+    "transformation": "Byte-for-byte copy of frozen torsion pretraining bundle"
+  },
+  {
+    "path": "checkpoints/torsion/tfn_energy.pt",
+    "source_sha256": "623308ff96c232c6483049b50e219da8b9152e565c55c6f21970b1f06da1410c",
+    "transformation": "Byte-for-byte copy of frozen torsion pretraining bundle"
+  },
+  {
+    "path": "checkpoints/torsion/equiformer_random.pt",
+    "source_sha256": "845a1f61be41b532546e5fa7b23af7917f39f7a27ef5361442da68ac773dbf4f",
+    "transformation": "Byte-for-byte copy of frozen torsion pretraining bundle"
+  },
+  {
+    "path": "checkpoints/torsion/hegnn_random.pt",
+    "source_sha256": "03306a553917b886ad814b88e6eb9e712e8f9865af91f4576c78dba960f7aba3",
+    "transformation": "Byte-for-byte copy of frozen torsion pretraining bundle"
+  },
+  {
+    "path": "checkpoints/torsion/mace_random.pt",
+    "source_sha256": "6a01f30686a4ae5407d9eea7c1226a5360e8273be5c57b5315dfa44542a97018",
+    "transformation": "Byte-for-byte copy of frozen torsion pretraining bundle"
+  },
+  {
+    "path": "checkpoints/torsion/tfn_random.pt",
+    "source_sha256": "98212a01ebd352700089453fd5d69c00fbaaf498cccadc0121b68ff793b6f57a",
+    "transformation": "Byte-for-byte copy of frozen torsion pretraining bundle"
+  },
+  {
+    "path": "checkpoints/torsion/equiformer_unimol.pt",
+    "source_sha256": "1ed6cc2ab43aa583b5ca6dc3ba1d04bfbcbab16c223c8ccc08c329eba46c73de",
+    "transformation": "Byte-for-byte copy of frozen torsion pretraining bundle"
+  },
+  {
+    "path": "checkpoints/torsion/hegnn_unimol.pt",
+    "source_sha256": "b49bdc3aa2808950276fc0fdb73c806cff4d14e527753debc3305cbe0adc77fe",
+    "transformation": "Byte-for-byte copy of frozen torsion pretraining bundle"
+  },
+  {
+    "path": "checkpoints/torsion/mace_unimol.pt",
+    "source_sha256": "19943281b886e45fd7b8721329a8ad619922df76f6d969fc6223658369364821",
+    "transformation": "Byte-for-byte copy of frozen torsion pretraining bundle"
+  },
+  {
+    "path": "checkpoints/torsion/tfn_unimol.pt",
+    "source_sha256": "4d411e7a801209f58718c208fc122e4ad983c3a19d8c639b0626b8dcdd7466d9",
+    "transformation": "Byte-for-byte copy of frozen torsion pretraining bundle"
+  },
+  {
+    "path": "code/scripts/torsion_pretraining.py",
+    "source_sha256": "9063c164b20002af7bf3aab4f75ce5dbbdbf53bf712c6b0829623115c0d30c8c",
+    "transformation": "Portable paths and local logging; analysis requires an explicit directory of computed scores."
+  },
+  {
+    "path": "code/scripts/train_torsion_energy.py",
+    "source_sha256": "7c728cb0a5429a0a8ed1b925674c8498885989170aa0b08334e5575df27be00b",
+    "transformation": "Portable bundle paths and local-only logging; model and objective formulas retained"
+  },
+  {
+    "path": "code/scripts/train_torsion_unimol.py",
+    "source_sha256": "b901dd8fabb8f23a250b06f8df9ba0e337603dc96937ec19a4e24cb92c2536f2",
+    "transformation": "Portable bundle paths and local-only logging; model and objective formulas retained"
+  },
+  {
+    "path": "code/utils/torsion_pretraining_analysis.py",
+    "source_sha256": "d0ed6d6c7c835ff8f9ef4b1013226cb02bb6a2cabbe8b0698652084568165e96",
+    "transformation": "Explicit score-directory input required; analysis formulas retained."
+  },
+  {
+    "path": "code/utils/torsion_models.py",
+    "source_sha256": "73d844c04458e4113e74fede72ea0b22c5da517e8fba1a4cc88f2f1371041041",
+    "transformation": "Portable bundle paths and local-only logging; model and objective formulas retained"
+  },
+  {
+    "path": "datasets/torsion/point_groups.csv",
+    "source_sha256": "59da8607bb737983adf896c46b8ae781388b51422aa7cbb94f5487b72d95b719",
+    "transformation": "Point-group label columns retained; coordinates and energy targets read from the shared torsion dataset"
+  },
+  {
+    "path": "source_data/fig4/symfp_frames.csv",
+    "source_sha256": "6118a72c3dda8ae0481e94203da8b41dbcae53d1583ef05e61d5de3bf8e21be8",
+    "transformation": "current-manuscript row/column selection; numerical values retained"
+  },
+  {
+    "path": "source_data/fig4/csom_frames.csv",
+    "source_sha256": "f4a88fe77df4c190ee82c32623ddb29a3f66d9c61232c1663758442e04caabb2",
+    "transformation": "current-manuscript row/column selection; numerical values retained"
+  },
+  {
+    "path": "source_data/fig5/clusters_leakage.csv",
+    "source_sha256": "7fd74f53d3a7fcdd268a9180233dfbb2960db6f248eb482412843b2d99cc77df",
+    "transformation": "current-manuscript row/column selection; numerical values retained"
+  },
+  {
+    "path": "source_data/fig5/frames.csv",
+    "source_sha256": "68d67a1e47973ca7e437996fbf3677e9e7f619b8ce5b454c0b1b717bb4846b94",
+    "transformation": "current-manuscript row/column selection; numerical values retained"
+  },
+  {
+    "path": "source_data/fig5/cf_counts_32groups.csv",
+    "source_sha256": "4e46dda30c042c636181128a57bcd8015ca09ad5dadc3d393882cd2707e9e821",
+    "transformation": "current-manuscript row/column selection; numerical values retained"
+  },
+  {
+    "path": "source_data/exfig2/window_scores.csv",
+    "source_sha256": "20a8148d407abb7b0c8f1340241fbaf102f5ec866df8ec6f0e6fae72074590ed",
+    "transformation": "current-manuscript row/column selection; numerical values retained"
+  },
+  {
+    "path": "source_data/exfig2/neighbour_scores.csv",
+    "source_sha256": "91612f855b223b5602026b68f87049187a6f14654fc1c761ad741d21d05f774b",
+    "transformation": "current-manuscript row/column selection; numerical values retained"
+  },
+  {
+    "path": "source_data/exfig3/scores.csv",
+    "source_sha256": "10759503601b3505cc4c17ebd45e35d4e81f25f36f03dd3865bbe6fc03f82e46",
+    "transformation": "current-manuscript row/column selection; numerical values retained"
+  },
+  {
+    "path": "source_data/exfig4/layer_scores.csv",
+    "source_sha256": "237d3538d09e1cefb9b6c3d8d8ed3298ab3c89632278b8587c007aba1a69fafd",
+    "transformation": "current-manuscript row/column selection; numerical values retained"
+  },
+  {
+    "path": "source_data/exfig4/domain_scores.csv",
+    "source_sha256": "be02b4de0872c950f25e803b7bc9f50410a9cd1cbab0a612b0b61ece7afec339",
+    "transformation": "current-manuscript row/column selection; numerical values retained"
+  },
+  {
+    "path": "source_data/fig2/toy_panel_a.csv",
+    "source_sha256": "34e6a523b3542975657963b55ec7204783090006640a3e0e31b2db9524edb4aa",
+    "transformation": "current-manuscript row/column selection; numerical values retained"
+  },
+  {
+    "path": "source_data/fig2/toy_panel_c.csv",
+    "source_sha256": "d43e9fb44e6421f32fd30fd4804f88fd75856c7464587cb4f390433ce4adf231",
+    "transformation": "current-manuscript row/column selection; numerical values retained"
+  },
+  {
+    "path": "source_data/fig2/random_initialization_per_seed.csv",
+    "source_sha256": "72b4f8e6d7c6c6d0fb8ea63d9245499e24604ff65f5a6f6b05ce566f302b2031",
+    "transformation": "current-manuscript row/column selection; numerical values retained"
+  },
+  {
+    "path": "source_data/fig2/random_initialization_summary.csv",
+    "source_sha256": "322f0cc51d79230550a61b449151f7ed9239bdf0d0fdc34f4d6fd4c7f63688c2",
+    "transformation": "current-manuscript row/column selection; numerical values retained"
+  },
+  {
+    "path": "source_data/fig2/degree9_test.csv",
+    "source_sha256": "01ac0a58d1d52d805f9dbbdc9388a082c0edc14615afe1d3fdaf22e3f5627b6c",
+    "transformation": "current-manuscript row/column selection; numerical values retained"
+  },
+  {
+    "path": "source_data/exfig1/mode_frames_absolute.csv",
+    "source_sha256": "dd9ef6752548fef87e07fd08d19ab7efe733a531f1c2094ae09ca0ff2f669499",
+    "transformation": "current-manuscript row/column selection; numerical values retained"
+  },
+  {
+    "path": "source_data/exfig1/mode_frames_orbit_species.csv",
+    "source_sha256": "6522b0c5ee049d169d8daee9da3bd7447164989142011dba1793da80864a7a01",
+    "transformation": "current-manuscript row/column selection; numerical values retained"
+  },
+  {
+    "path": "source_data/exfig1/mode_frames.csv",
+    "source_sha256": "d40abbf0d1a032dbfe10af7f61e5c84649bdbb7a4a06e76d16736b55faecd75e",
+    "transformation": "current-manuscript row/column selection; numerical values retained"
+  },
+  {
+    "path": "source_data/exfig1/lndota_blocks.csv",
+    "source_sha256": "d02f2fd141ec2684c315a12fd25bd6375f0813e835de52779998faabce35f2b6",
+    "transformation": "current-manuscript row/column selection; numerical values retained"
+  },
+  {
+    "path": "source_data/fig3/mode_scores.csv",
+    "source_sha256": "465a17f504466dbcd0ccae0f179e6b2f9f30abe8d9991dee36a07f4edd9caa8d",
+    "transformation": "current-manuscript row/column selection; numerical values retained"
+  },
+  {
+    "path": "source_data/fig4/engel_frames.csv",
+    "source_sha256": "264c35051b127f2432ee5aa27f0be9e6fd11124754c7080725c9fa3c89f5e001",
+    "transformation": "Enhanced shared-orientation Engel results; pivot engel_strong into molecule/frame/target layout; retain the 2256 evaluated pair-frame scores"
+  },
+  {
+    "path": "source_data/fig5/extra_baselines_frames.csv",
+    "source_sha256": "788acb4e93e2209272fd3d000590bc10ff7dd9ee468cd226c3ee01442f6432c5",
+    "transformation": "Replace four Engel columns by enhanced shared-orientation scores; preserve alpha_deg and the two existing selfmatch columns",
+    "retained_columns_source_sha256": "d4a60a3c189e0e5a46790fdd4e8ea86ea8f6983ab6a8e5f49366edc9115de690"
+  },
+  {
+    "path": "source_data/computational_cost/engel_search_trials.csv",
+    "sources": [
+      {
+        "source_sha256": "19774ef6fbb08eb79f9729a94aa3dd9a7dd24b56a5538060ffd3d5ee62ed4d29"
+      },
+      {
+        "source_sha256": "468a67d35f25b8d41a327ab393a3f7553fe7e8133882a271aa1922ab67499933"
+      },
+      {
+        "source_sha256": "404246d6f9df3a60bdda6bde4dcab8babcb606dddbe97095fcf52fe2442c79ca"
+      }
+    ],
+    "transformation": "Select completed DOTA/biological trials and the independent per-call p97 timeout; omit the earlier batch-deadline interruption"
+  },
+  {
+    "path": "source_data/computational_cost/engel_search_summary.csv",
+    "sources": [
+      {
+        "source_sha256": "19774ef6fbb08eb79f9729a94aa3dd9a7dd24b56a5538060ffd3d5ee62ed4d29"
+      },
+      {
+        "source_sha256": "468a67d35f25b8d41a327ab393a3f7553fe7e8133882a271aa1922ab67499933"
+      },
+      {
+        "source_sha256": "404246d6f9df3a60bdda6bde4dcab8babcb606dddbe97095fcf52fe2442c79ca"
+      }
+    ],
+    "transformation": "Group the selected measured trials by system, target count and search protocol; compute medians; retain the timeout as censoring"
+  },
+  {
+    "path": "source_data/computational_cost/README.md",
+    "source_sha256": "e8f391d6932f022427339d3d2341dc2081c489ff7d720fa6d1dab70d08376083",
+    "transformation": "2026-09-25 computational timing update: measured SymFP data and frozen inputs; harness adapted to publication paths; baseline measurements retained."
+  },
+  {
+    "path": "source_data/computational_cost/jobs/float64__dota__cpu__1.json",
+    "source_sha256": "a96ae501f069a33d2050c31dd1f7318b34ec9e2d0dde1f1709f34f9a6e6f1ca2",
+    "transformation": "2026-09-25 computational timing update: measured SymFP data and frozen inputs; harness adapted to publication paths; baseline measurements retained."
+  },
+  {
+    "path": "source_data/computational_cost/jobs/float64__dota__cpu__2.json",
+    "source_sha256": "8e5f3c6d0a538cb419fef9d5cc1819c072a364d3bf14054ed136bd331ce1e34f",
+    "transformation": "2026-09-25 computational timing update: measured SymFP data and frozen inputs; harness adapted to publication paths; baseline measurements retained."
+  },
+  {
+    "path": "source_data/computational_cost/jobs/float64__dota__cpu__4.json",
+    "source_sha256": "99989eca8f4e598c1ba1f301dc02ab4f7440a20631b87491f2a4d0c2a985fe1b",
+    "transformation": "2026-09-25 computational timing update: measured SymFP data and frozen inputs; harness adapted to publication paths; baseline measurements retained."
+  },
+  {
+    "path": "source_data/computational_cost/jobs/float64__dota__cpu__7.json",
+    "source_sha256": "2f69c6c50906431ad935e27f0a1c9d3fdbb32010613118ea400fe865659a12cc",
+    "transformation": "2026-09-25 computational timing update: measured SymFP data and frozen inputs; harness adapted to publication paths; baseline measurements retained."
+  },
+  {
+    "path": "source_data/computational_cost/jobs/float64__ha__cpu__1.json",
+    "source_sha256": "071701b0b4be82eaab2475504d44691a9e092ee08d93aaaf4c31e01d748552e3",
+    "transformation": "2026-09-25 computational timing update: measured SymFP data and frozen inputs; harness adapted to publication paths; baseline measurements retained."
+  },
+  {
+    "path": "source_data/computational_cost/jobs/float64__ha__cuda:0__1.json",
+    "source_sha256": "cda2a468a02f85039d9db99e625666dbe2a86d384dda3a257d4ba7954df0ff23",
+    "transformation": "2026-09-25 computational timing update: measured SymFP data and frozen inputs; harness adapted to publication paths; baseline measurements retained."
+  },
+  {
+    "path": "source_data/computational_cost/jobs/float64__p97__cpu__1.json",
+    "source_sha256": "69cc0139c1f582ecd6a9d8e6d6d9ca6e9524c2027d3a6ce0b687ba0478ccc4a2",
+    "transformation": "2026-09-25 computational timing update: measured SymFP data and frozen inputs; harness adapted to publication paths; baseline measurements retained."
+  },
+  {
+    "path": "source_data/computational_cost/jobs/float64__p97__cuda:0__1.json",
+    "source_sha256": "ef1e81b66b367bf7263fee0fcbe3cf219175045bbd38f7361af38bfb840cca3a",
+    "transformation": "2026-09-25 computational timing update: measured SymFP data and frozen inputs; harness adapted to publication paths; baseline measurements retained."
+  },
+  {
+    "path": "source_data/computational_cost/jobs/float64__scan__cpu__1.json",
+    "source_sha256": "f5760e2e17b32e04ec1de5952c0b211566d3efd73d7896a4ac015bcf7936444a",
+    "transformation": "2026-09-25 computational timing update: measured SymFP data and frozen inputs; harness adapted to publication paths; baseline measurements retained."
+  },
+  {
+    "path": "source_data/computational_cost/jobs/float64__scan__cuda:0__1.json",
+    "source_sha256": "382d54a89578fe124d96579cd11cc6fa3a93fdb3eff0f64aed3a4b157180e0a1",
+    "transformation": "2026-09-25 computational timing update: measured SymFP data and frozen inputs; harness adapted to publication paths; baseline measurements retained."
+  },
+  {
+    "path": "source_data/computational_cost/edge_counts.json",
+    "source_sha256": "c548519612fc7ad3b07f8096a776ac01103ab6dc68f0bc7b046665a7d550d9d0",
+    "transformation": "2026-09-25 computational timing update: measured SymFP data and frozen inputs; harness adapted to publication paths; baseline measurements retained."
+  },
+  {
+    "path": "source_data/computational_cost/protocol.json",
+    "source_sha256": "259bc5f81e6a49cbc00f3c173c55752b0d7e670e6a01583a4fedce544095f2a9",
+    "transformation": "2026-09-25 computational timing update: measured SymFP data and frozen inputs; harness adapted to publication paths; baseline measurements retained."
+  },
+  {
+    "path": "source_data/computational_cost/summary.csv",
+    "source_sha256": "142881c9bbe311af50775e1ee6d28e4f0da0025f95a079826f5b0e4a430a72e8",
+    "transformation": "2026-09-25 computational timing update: measured SymFP data and frozen inputs; harness adapted to publication paths; baseline measurements retained."
+  },
+  {
+    "path": "source_data/computational_cost/trial_source_data.csv",
+    "source_sha256": "06bf0e4a0b58fd33d5fa7350d4c993a46411e749d6277ea78318598fe3598550",
+    "transformation": "2026-09-25 computational timing update: measured SymFP data and frozen inputs; harness adapted to publication paths; baseline measurements retained."
+  },
+  {
+    "path": "source_data/torsion_pretraining/scores/energy/equiformer.csv",
+    "source_sha256": "2cf4c5d73388d967853054d77ef59270971cfeca57055bf65490ef125c229641",
+    "transformation": "Byte-for-byte copy of frozen torsion pretraining bundle"
+  },
+  {
+    "path": "source_data/torsion_pretraining/scores/energy/hegnn.csv",
+    "source_sha256": "2af200f8136b977d00811558f5297b8b9ee2db0a11404de4567601354f89207b",
+    "transformation": "Byte-for-byte copy of frozen torsion pretraining bundle"
+  },
+  {
+    "path": "source_data/torsion_pretraining/scores/energy/mace.csv",
+    "source_sha256": "028fa3cbafa1bb5f5b3c2556716efa2fcb4a3df1a0afe49c0577eab829c9fdbd",
+    "transformation": "Byte-for-byte copy of frozen torsion pretraining bundle"
+  },
+  {
+    "path": "source_data/torsion_pretraining/scores/energy/tfn.csv",
+    "source_sha256": "26fb7a94ea84680285dca57b67bc4d51dacc33200d2a74dacb9e391730466635",
+    "transformation": "Byte-for-byte copy of frozen torsion pretraining bundle"
+  },
+  {
+    "path": "source_data/torsion_pretraining/scores/random/equiformer.csv",
+    "source_sha256": "4b52b08b3b98948d1c2317101c7cf8bf689dd5fd3babad56a314e08a63ac3cd5",
+    "transformation": "Byte-for-byte copy of frozen torsion pretraining bundle"
+  },
+  {
+    "path": "source_data/torsion_pretraining/scores/random/hegnn.csv",
+    "source_sha256": "2f4ce3ce9314399c99ec69a4cd9abfe69f48169e369bca4829ba03844d374857",
+    "transformation": "Byte-for-byte copy of frozen torsion pretraining bundle"
+  },
+  {
+    "path": "source_data/torsion_pretraining/scores/random/mace.csv",
+    "source_sha256": "2dfd4b4b9b570f60bf243edb725cb6f3daf5a9793d353d36f7b129ac0456cedd",
+    "transformation": "Byte-for-byte copy of frozen torsion pretraining bundle"
+  },
+  {
+    "path": "source_data/torsion_pretraining/scores/random/tfn.csv",
+    "source_sha256": "a1df73c5c1d242aa272e5bc4831cd83a849abb2cef52acab9b36b97301b964d1",
+    "transformation": "Byte-for-byte copy of frozen torsion pretraining bundle"
+  },
+  {
+    "path": "source_data/torsion_pretraining/scores/unimol/equiformer.csv",
+    "source_sha256": "bc6a49370eaf79cb6402f47f8a8a052c56f9e896032fe9b08927f4396bfe370b",
+    "transformation": "Byte-for-byte copy of frozen torsion pretraining bundle"
+  },
+  {
+    "path": "source_data/torsion_pretraining/scores/unimol/hegnn.csv",
+    "source_sha256": "3627fbe53fffe3f607aceca5dfd0ee0b3e33e95dd3bcda5d314905a0f9a86600",
+    "transformation": "Byte-for-byte copy of frozen torsion pretraining bundle"
+  },
+  {
+    "path": "source_data/torsion_pretraining/scores/unimol/mace.csv",
+    "source_sha256": "47c22af4ed520dd780915d899959f3de38aa770472d2989476bb4713cdad65ae",
+    "transformation": "Byte-for-byte copy of frozen torsion pretraining bundle"
+  },
+  {
+    "path": "source_data/torsion_pretraining/scores/unimol/tfn.csv",
+    "source_sha256": "f6be3912eefc2d2a9fea250e61cdc7906759755221004d27be12e8aa03fd30c4",
+    "transformation": "Byte-for-byte copy of frozen torsion pretraining bundle"
+  },
+  {
+    "path": "source_data/exfig3/spectra.json",
+    "sources": [
+      {
+        "path": "datasets/ha/6Y5G.npz",
+        "sha256": "dfe5aee781a9406661d6e761f5728366dfbb7782d4b0f873868e09c1affdcbbc"
+      },
+      {
+        "path": "datasets/ha/6Y5H.npz",
+        "sha256": "80585070cc7f87b971b7b6a2159213714ebe6b8fdb65b1345c402421eb24e3f7"
+      },
+      {
+        "path": "datasets/ha/6Y5I.npz",
+        "sha256": "33d55a6aa230f8654782ce03cbafedf184546670e68fc45761b114c066bce4a6"
+      },
+      {
+        "path": "datasets/ha/6Y5J.npz",
+        "sha256": "6dd2815c9045afc1d1b8e3d3e0fc5033af1fe394c5da848c2477334d491b4c96"
+      },
+      {
+        "path": "datasets/ha/6Y5K.npz",
+        "sha256": "0e12d9a36558df257a29835fdd88e9d8bbda0c5755d323f64ae9b8e870ef6341"
+      }
+    ],
+    "transformation": "Recomputed with code/recompute_pf.py (CPU, FP32); maximum absolute pLS difference from scores.csv: 3.0279159545898438e-05."
+  },
+  {
+    "path": "source_data/exfig4/spectra.json",
+    "source_sha256": [
+      "be18ffaa20c884665c60649a2d84966f9d6ba05c9ceecb0b2609956e220ee41f",
+      "75bbe972c31a0bf2bcf7b4938e5780b1ac3bba8e4413b397f86038b659cb5495",
+      "cdc18909945980280cec785d69f7d5d31797869e1164149e331d6bcdd00ae4ee",
+      "86190161503896cf476a6af68a55641fe0ce263b501e84df3ef9ca0b0561470c",
+      "2d112078d663eff0fd9aebe9fe8f48754ec41c790853eda885215209c7976bcd",
+      "74206193050e845cc0aa88624e8b1f5f5669c6b9c9d5686da11aad71c9fb0a1a",
+      "3299ecc02deed5e646e6bd2c5f34a8d56043bb82ca9dfd7666db8929ebe488d8",
+      "8e684d8654f08c7b053ff60c0c4ce11dae813a825bfe43dceff75b9e846a38ed",
+      "169336352a88ffbdb0c188bb604b2d339c21414dde7439d1b5559f2e6ed310aa",
+      "89344cc93263e4059e8b9af75dd2bbc4b0202a65b5a00623cb370c778c86bcdb",
+      "287ef4f75bb8d835b6c21932742a130e0d47857706ad47bf3ae6da4979bef6a9",
+      "c953c4bf969dcf0e4c6736133e473bafde683dc50d015a7494436d81bbefef7e",
+      "c8aa7e3a6437f0ea3a8c1de88fff3306b3ab24d51ef8fac513c2e973ddbbc5a8",
+      "335efa2ac6faceee90bd0f1cdc23b1e8687e2d2ef2730814e7be1dde02a56712",
+      "adacffcf1adf992db9c7c96a6137926b7606a1a332f794fccf74f178452517da",
+      "ff43f77c4968a3e28a8888f0f537e59a22555a19d0d64837e583c79efa160c15",
+      "e81044acb2af674fc073db5acd96d3dd43ad0646becafbb83c2be8c246d30ef4",
+      "8ab10f4e540d5c1a936d5bc7b42c4b31eb795caa210b266b036ad2b367ceba3b",
+      "44494fb2d88942d543f070464ca0dcc46b709fff4f6fa7ef3a7a9ce65a13d89b",
+      "2a19455411cfae1a66c627f7eaab62155b2cf9aa7bfbf51218d59f274ce9481a",
+      "90e546fd47fb07520c4268c5a006219f74a9082bd6cb8daab2d54fd47c9a223a",
+      "9cb901ec7444b3b51d0b7547ff7eac4ffeea251045a1004eb23e79f604fa8609",
+      "05fb2f09b5ca961adf54ee965b1f773571a580f5bb8018720160400279dc1150",
+      "ad928726e7e978564e93884c4cb267dc32c4a10cdc059867f1a9321e387730e1",
+      "baa12b6934789e5e42a87864091d036daadb3ef087ec88d8a9e73e2f12e4c4cf",
+      "20ca762fb673a48b8e835761c75a592c0ff5db12a71ee565586852b59c22cb9c",
+      "fcebb1125d32d1d75b0422de97bd9cb58b4c71ad1f0520758a36916db72211c0",
+      "6ce162921e21d1740855c9bdac95ff3082d76bc0587ce731c1bb5625fdff3b0d",
+      "5cd42d61209d3cd9f296b03d0dbf105c144a8957a80373c967cf685eddcd9a93",
+      "55df3c7c5bb19aed7633387d7335f7e2073ece26cb22d53d540bc7c8949f152c",
+      "020019db27535c6ac2d2967afba0206ae67a913a69f8ccbe89ffdeea77c3fc73",
+      "fe9779ea9766365593b5b2298c45cf1bbec88035f5eebf0496d053e77616338d",
+      "c90e518c6adc5f2840271bd7ae95bc240a918650a1abc3da57462ddd907fc67f",
+      "e56539f15c70a9cf2bd11a8fb826fe9b25ea378f7d20f7100af3b49f3cbc05fa",
+      "f9c9dc157c7ecc15ac64f0148163df8c6bbe8196460c03d1d9edec9ece4cb6fd",
+      "82ec84b1d62d8d2318f3f350ef0b253d0ecf274fd7b25714ae40ba16ba84cb6f",
+      "4e75864e36f43508203d2b4478cdbdd2aca58a48641ccf1df0e70fd8cb73215c",
+      "4c3168c3749aa3395ac0745bfb285b1bbcb42713cb6546f40c6e346ad3225ccd",
+      "8e1ecf895e62e8f8c435bcf41ae498d692ba80a974ee377d6ffdcc3e163bf824",
+      "9cad9b3578dda923f1b965321571a685570b2c5e5f11415de17617883a2de121",
+      "0c3d1e5e51a4a222e724ea1f3dfef2661c10da9ac38ade3a932b86bfd9d18be9",
+      "ea85495ad38542da50de0b3dadca41038fbb0d0d5fe3c1b46dfe69f389dda954",
+      "a221d26aaa7fae6f40f6d9403ea700cc7efe41d54185ce882748b7cbb3a5dd38",
+      "409b5fba9cb3adaa914979ae439fab8d10ec134aa26aba861a9cf8fb75fb1810",
+      "e67ed8d28677113d96738555de357a2a95076a66779df0a1e13b0ebf24243c75",
+      "2a442fb3b2143a5143d0b8e60371db0e86bb7071f263f354701814f4e5754f1d",
+      "7625bfe4156a0d340b47a2e78ca1ddac9a1e7bd85c91ed4cf8d703f30c39e68a"
+    ],
+    "transformation": "Collected archived singular values and scores for three domains and 44 layers; numeric fields unchanged."
+  }
+]

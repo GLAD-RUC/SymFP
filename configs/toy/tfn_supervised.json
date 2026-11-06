@@ -1,0 +1,21 @@
+{
+  "model": "tfn",
+  "regime": "supervised",
+  "hyper_parameters": {
+    "model_type": "tfn",
+    "num_classes": 32,
+    "hidden_dim": 64,
+    "num_layers": 2,
+    "max_ell": 6,
+    "irreps_channels": 16,
+    "mace_correlation": 2,
+    "lr": 0.001,
+    "weight_decay": 1e-05,
+    "freeze_encoder": false,
+    "so3": false
+  },
+  "epoch": 72,
+  "global_step": 5840,
+  "source_checkpoint_sha256": "c4c29d574b50bdc798db8b028476090e29771b45890bbc29e86ff87083508876",
+  "format": "NumPy state_dict: use torch.from_numpy for each named array"
+}

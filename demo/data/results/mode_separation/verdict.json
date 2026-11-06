@@ -1,0 +1,66 @@
+{
+  "n_frames": 84,
+  "n_frames_nonzero": 80,
+  "amplitude_matching_max_rmsd_spread_across_modes": 4.9670600061821335e-08,
+  "onset_degree_per_mode": {
+    "IP1_ellipse": 2,
+    "IP2_radial": 3,
+    "AX1_pucker": 3,
+    "AX2_spiral": 1
+  },
+  "onset_degrees_distinct_groups": [
+    1,
+    2,
+    3
+  ],
+  "onset_stable_over_upper_half_of_amplitude_range": true,
+  "per_mode": {
+    "IP1_ellipse": {
+      "family": "in_plane",
+      "onset_degree": 2,
+      "min_activated_ratio": 0.016008459737566632,
+      "max_forbidden_ratio": 5.275548501502307e-10,
+      "separation_orders_of_magnitude": 7.482081927916968,
+      "detected_group_sch": "C2",
+      "pls": 1.0425385236740112,
+      "rmsd_from_parent": 0.2999999894036185,
+      "c6_selfmatch_rmsd": 0.5196152521924362
+    },
+    "IP2_radial": {
+      "family": "in_plane",
+      "onset_degree": 3,
+      "min_activated_ratio": 0.012716827340687534,
+      "max_forbidden_ratio": 3.374916539962237e-10,
+      "separation_orders_of_magnitude": 7.576115737401661,
+      "detected_group_sch": "C3",
+      "pls": 1.9482840299606323,
+      "rmsd_from_parent": 0.2999999894036185,
+      "c6_selfmatch_rmsd": 0.5999999746309144
+    },
+    "AX1_pucker": {
+      "family": "axial",
+      "onset_degree": 3,
+      "min_activated_ratio": 0.0069879950314131085,
+      "max_forbidden_ratio": 1.8279639828564706e-10,
+      "separation_orders_of_magnitude": 7.582384953124825,
+      "detected_group_sch": "C3",
+      "pls": 1.1994425058364868,
+      "rmsd_from_parent": 0.3000000026490953,
+      "c6_selfmatch_rmsd": 0.6000000070780583
+    },
+    "AX2_spiral": {
+      "family": "axial",
+      "onset_degree": 1,
+      "min_activated_ratio": 0.010476635049341307,
+      "max_forbidden_ratio": null,
+      "separation_orders_of_magnitude": null,
+      "detected_group_sch": "C1",
+      "pls": 0.8928439021110535,
+      "rmsd_from_parent": 0.3000000026490953,
+      "c6_selfmatch_rmsd": 0.5230961679615211
+    }
+  },
+  "scalar_c6_selfmatch_auc_axial_vs_inplane": 0.5075,
+  "scalar_pls_auc_axial_vs_inplane": 0.2575,
+  "onset_tolerance": 1e-06
+}

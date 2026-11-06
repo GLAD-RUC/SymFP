@@ -1,0 +1,31 @@
+name: SymFP
+channels:
+  - pytorch
+  - pyg
+  - conda-forge
+  - nvidia
+  - nodefaults
+dependencies:
+  - python=3.10
+  - pytorch=2.1.2
+  - pytorch-cuda=12.1
+  - numpy=1.26.4
+  - scipy=1.15.2
+  - pandas=2.3
+  - networkx=3.4
+  - tqdm
+  - sympy
+  - scikit-learn
+  - biopython
+  - openbabel=3.1.1
+  - pip
+  - pip:
+      - --find-links https://data.pyg.org/whl/torch-2.1.0+cu121.html
+      - torch-geometric==2.8.0
+      - torch-scatter==2.1.2+pt21cu121
+      - torch-sparse==0.6.18+pt21cu121
+      - torch-cluster==1.6.3+pt21cu121
+      - e3nn==0.5.9
+      - pytorch-lightning==2.6.1
+      - pymatgen==2025.10.7
+      - opt-einsum==3.4.0

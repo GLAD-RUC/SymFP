@@ -1,0 +1,642 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 161,
+    "sha256": "ae8738873ad5a3a1c6f76bbb28a72e22019466d14f8d1f38e4629494bc934afc"
+  },
+  {
+    "path": "DATASETS.md",
+    "bytes": 8765,
+    "sha256": "f0adfd4c9aae404e9609f34713a3a72c763abb088c5ec1f8f347274c72f4bc67"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 4618,
+    "sha256": "4dfb5dcd4ac9544ef4489108feb3c14b6290351b017c77140d1f9ee95cc5cb98"
+  },
+  {
+    "path": "README.md",
+    "bytes": 2933,
+    "sha256": "d5f6ca24a15f55336e7d35731991ab24ddbb1475528421441284e4385a93327b"
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "bytes": 2138,
+    "sha256": "8bc9da1c429bc5d49b551077ec708a01a845dbe17628813c07cbeafd22128cd8"
+  },
+  {
+    "path": "archives.json",
+    "bytes": 131119,
+    "sha256": "869f336d8f02ca07ed7790bf305e03749a1d8d315e2db89c3bd1944c085001b6"
+  },
+  {
+    "path": "checkpoints.zip",
+    "bytes": 99920503,
+    "sha256": "c3bb4d03f3f25ba881ae85961169deb8f739a069237efcf3f5671891e636dac9"
+  },
+  {
+    "path": "code/LICENSE",
+    "bytes": 4618,
+    "sha256": "4dfb5dcd4ac9544ef4489108feb3c14b6290351b017c77140d1f9ee95cc5cb98"
+  },
+  {
+    "path": "code/baseline/__init__.py",
+    "bytes": 3615,
+    "sha256": "c086d47eb08044219c921582788e37061cc85797dcff8cb89af80809a439692b"
+  },
+  {
+    "path": "code/baseline/common.py",
+    "bytes": 14124,
+    "sha256": "f0a62b42bdb841b8e267f9dcd6d874c9401f025c85189a9dcd4b81d9af51a6c0"
+  },
+  {
+    "path": "code/baseline/cshm.py",
+    "bytes": 29202,
+    "sha256": "c482df434bf5710fb3283e1f09f7b162e5df467ef5aad3d7b437cb3ada470f6a"
+  },
+  {
+    "path": "code/baseline/csm.py",
+    "bytes": 23328,
+    "sha256": "41e73f4e3e098f9b1ae87549721ae311f5b866ac7b75b8cee9be6620f218b6aa"
+  },
+  {
+    "path": "code/baseline/csom.py",
+    "bytes": 24323,
+    "sha256": "8f082932a5981d124620d18208df760c6b14342a418030608fecda31d5e27e0a"
+  },
+  {
+    "path": "code/baseline/csom_modules/__init__.py",
+    "bytes": 744,
+    "sha256": "8bb565f7d0441d37873588cec4052af3780f86df995f8f19a370d4550c9487b4"
+  },
+  {
+    "path": "code/baseline/csom_modules/core.py",
+    "bytes": 17035,
+    "sha256": "d534fe265dca62c6f1848797f9bb4b805019581debb6760b400029064904df7c"
+  },
+  {
+    "path": "code/baseline/csom_modules/groups.py",
+    "bytes": 14117,
+    "sha256": "3ec446994b668f345cbaa28d6be7d172586ff8d0d1676e161b53ed95fe378e3a"
+  },
+  {
+    "path": "code/baseline/engel.py",
+    "bytes": 26598,
+    "sha256": "e5583b4de9676ef1065d2b7b0b60f16d1532bf71a7394116309a4e6ba4d38aed"
+  },
+  {
+    "path": "code/baseline/engel_orientation.py",
+    "bytes": 6587,
+    "sha256": "0b814302200c78dc91cefe70d5d1f305ec527e8b0b45350e2e5ba664b58091cd"
+  },
+  {
+    "path": "code/baseline/engel_point_groups.json",
+    "bytes": 17872,
+    "sha256": "b3429007b5bb43840e8910522a4ef0a3d481a1702f0a64ca107d662e9d4dc7fa"
+  },
+  {
+    "path": "code/data/__init__.py",
+    "bytes": 53,
+    "sha256": "0db408def1640e33c9bcd6210ce464100640a80e33526f27bb21247d4094f21c"
+  },
+  {
+    "path": "code/data/base_dataset.py",
+    "bytes": 3016,
+    "sha256": "5c922147ef0eb5280d787cbbaa4b518a72bc24517575b82ad3fa55b0d361fe1b"
+  },
+  {
+    "path": "code/data/cf_selection_rules.py",
+    "bytes": 2772,
+    "sha256": "8f497af43ac3eb680a011f3a8047d824cc7e4072b9e95d840eb78a50c2260455"
+  },
+  {
+    "path": "code/data/dydota_cif.py",
+    "bytes": 7475,
+    "sha256": "ba5622a21853dcea88b3878fadde3e827e34f9fb8103ce8e8a9ce049dbb0f797"
+  },
+  {
+    "path": "code/data/ln_spectroscopic_rules.py",
+    "bytes": 3821,
+    "sha256": "a4f4403020d4b704cec082b6c43ac3f0fcc7a54d4fcbf199561e4e257f98b492"
+  },
+  {
+    "path": "code/data/schoenflies.py",
+    "bytes": 7935,
+    "sha256": "dfefee0671fa8b4570d24c537f0b1a6910ed5b2dfade84d7488df3f25cd50995"
+  },
+  {
+    "path": "code/data/toy_dataset.py",
+    "bytes": 3994,
+    "sha256": "3ae372dc44cb2d93b4a59f9333862ec32e2df49775fc6004518a0ab0e04d9eff"
+  },
+  {
+    "path": "code/environment.yml",
+    "bytes": 631,
+    "sha256": "14e13172d3254b7e1fccd5be3acbf9e9405ba1c03105e3da1aff780186723a3c"
+  },
+  {
+    "path": "code/inspect_data.py",
+    "bytes": 2823,
+    "sha256": "7b1a94743baead41729075c1d7ef6082571da5f8f0c72330fd12320700d5f080"
+  },
+  {
+    "path": "code/models/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "code/models/backbone_factory.py",
+    "bytes": 7109,
+    "sha256": "1acf3a60f0e8cf7d14ed15474f585109f7a3490e91ca5c882676812e0dba63c3"
+  },
+  {
+    "path": "code/models/balance_irreps.py",
+    "bytes": 2628,
+    "sha256": "499156c31751d7807424ea75f1a14f7080ba2a60190f302649f6e3ec642d76bd"
+  },
+  {
+    "path": "code/models/dimenet.py",
+    "bytes": 3062,
+    "sha256": "8947d8522ff58426514bdcecd3f5abfb20ed5ee0769229e8a35cba5f53cd939b"
+  },
+  {
+    "path": "code/models/egnn.py",
+    "bytes": 4586,
+    "sha256": "a61489ead0a6436fdbb2b96b8423b51126cbd2b2b65c9b8818aafb8fdbe3a6f0"
+  },
+  {
+    "path": "code/models/equiformer.py",
+    "bytes": 6604,
+    "sha256": "8f59896d75c4f2f9062c4b79ee8786840c17c4fb37884e4fb0a31e1d589f46de"
+  },
+  {
+    "path": "code/models/equiformer_balance.py",
+    "bytes": 6660,
+    "sha256": "77389f757011e7738a686a3a8a0d54e337c117b808e93214d24f3107da1bb08f"
+  },
+  {
+    "path": "code/models/equiformer_modules.py",
+    "bytes": 35492,
+    "sha256": "c77c09335352b7098057c174a3026bb0e1e5d6a9ac485d1f5f908b5c9879c23e"
+  },
+  {
+    "path": "code/models/gvpgnn.py",
+    "bytes": 11678,
+    "sha256": "e01dbd7040a29049d1bb2e7b253b08ead6eca4dd6a2289dc26a91d40ef82810c"
+  },
+  {
+    "path": "code/models/hegnn.py",
+    "bytes": 9903,
+    "sha256": "cbf3360f1f20d721bf36583df4053e4fd40c3a7d702deb2f78cc8074ec6f61e1"
+  },
+  {
+    "path": "code/models/hegnn_balance.py",
+    "bytes": 5179,
+    "sha256": "d0ee0af49a5b1f640562e29e019f3aa574476a856873bcc879dd0d634bdb3df3"
+  },
+  {
+    "path": "code/models/mace.py",
+    "bytes": 8046,
+    "sha256": "b52a84655fd1f0c80e212823082a93ed977ddf2ae90dc1b5ca838677cc68ad13"
+  },
+  {
+    "path": "code/models/mace_balance.py",
+    "bytes": 9269,
+    "sha256": "315b5a690d3fab5408c77d1a29745b60f8a588a3dc379a20f8f4ee65d82bc443"
+  },
+  {
+    "path": "code/models/mace_modules/__init__.py",
+    "bytes": 1804,
+    "sha256": "fefbacebea6dbfc5ba00413745a9372dc18f1f3761e10315bdbac005f453c56b"
+  },
+  {
+    "path": "code/models/mace_modules/blocks.py",
+    "bytes": 17429,
+    "sha256": "cf1bf0c2da9a7b6a0da051e3a1f887197cbaaa461a39354d4faafb5eeabb8e4d"
+  },
+  {
+    "path": "code/models/mace_modules/cg.py",
+    "bytes": 4922,
+    "sha256": "cb43731b76be3b7cf9d24c59aa1be390f8df619314c5b1e2fee66518126a1370"
+  },
+  {
+    "path": "code/models/mace_modules/irreps_tools.py",
+    "bytes": 2449,
+    "sha256": "3d7d9a21815c1025867e6da64d245803735752b2dfc126cf3509af873cee863b"
+  },
+  {
+    "path": "code/models/mace_modules/radial.py",
+    "bytes": 2096,
+    "sha256": "c44ea28c159de420347a95bc628ba0ce0c79ce822f2e88794f48a5bd0e85c404"
+  },
+  {
+    "path": "code/models/mace_modules/symmetric_contraction.py",
+    "bytes": 6200,
+    "sha256": "dadd63d3397dcbf277ce8d919a9f960a27c5240736daa1a24bbc4c11f28b5f0d"
+  },
+  {
+    "path": "code/models/para_free.py",
+    "bytes": 23288,
+    "sha256": "ada049f3d7cbd387b821ca3f829c6c0ca8a34b6294ae4ff6a0e75c3d2a35bd3c"
+  },
+  {
+    "path": "code/models/schnet.py",
+    "bytes": 1990,
+    "sha256": "40f90dc47c05e3186d5cc791cca302ef092a63a885de973c18515e392626ed20"
+  },
+  {
+    "path": "code/models/symfp_hard.py",
+    "bytes": 9123,
+    "sha256": "b031c4d3932823f994c13750fdc359a906ff80dc5ee365bfad430d5881c199a3"
+  },
+  {
+    "path": "code/models/symfp_wrapper.py",
+    "bytes": 7165,
+    "sha256": "086647b8e802ee5a41c0fba3cb0f73271f0b4d61765a423799fbc31d1a572a9d"
+  },
+  {
+    "path": "code/models/symmetry_groups.py",
+    "bytes": 1826,
+    "sha256": "b7721cfb822dde3ac6fb21942045bd84850afb0a78707b16ac702724151cb036"
+  },
+  {
+    "path": "code/models/tfn.py",
+    "bytes": 7153,
+    "sha256": "511c849ca6c2b42cf27d7234f58e2b19c615f86925a63e930a402f3c0f1eac97"
+  },
+  {
+    "path": "code/models/tfn_balance.py",
+    "bytes": 7571,
+    "sha256": "d46d0cf06f24d1dd92675b9a755272c05668a69d7e37e72ea3c170e3b63e845f"
+  },
+  {
+    "path": "code/models/utils.py",
+    "bytes": 569,
+    "sha256": "1a37692b9659c6e0df6f98a2ce4ac9323b98ddaa15c9f274e5f53bbbbf8506be"
+  },
+  {
+    "path": "code/recompute_pf.py",
+    "bytes": 5172,
+    "sha256": "86c8ab31db06a78dd747b85d67a88f65cf65983e8af4c5b52df9b4ad00504297"
+  },
+  {
+    "path": "code/scripts/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "code/scripts/analyze_xyz.py",
+    "bytes": 4569,
+    "sha256": "a7aafe29b000677678fc3b9fea1e7446429888c755037439c6a5bda2ef93910b"
+  },
+  {
+    "path": "code/scripts/benchmark_symfp.py",
+    "bytes": 7050,
+    "sha256": "535981121668d75f1bd0e87260fb5b99ab718c6aa5933f4b12dfdad733d5abb5"
+  },
+  {
+    "path": "code/scripts/computational_efficiency.py",
+    "bytes": 11968,
+    "sha256": "cdac2e62ee6f4c1be4b52f9594eca8d7a88dfb5faf8f5dc28a0414eaa85fe61f"
+  },
+  {
+    "path": "code/scripts/evaluate_toy.py",
+    "bytes": 3517,
+    "sha256": "9e419ccf2d1c2b6b34e3f0691b403b9cf4a452ca97ea4c55f6085137a8b0bfc7"
+  },
+  {
+    "path": "code/scripts/prepare_torsion_data.py",
+    "bytes": 930,
+    "sha256": "3d4bd4f4e0bd440349fd42b50fef8ef443fe9e43957b21fbe93986b45ef5a2b0"
+  },
+  {
+    "path": "code/scripts/torsion_pretraining.py",
+    "bytes": 8355,
+    "sha256": "4340402f9485881e2554bced196e9edd56576db448e8969879f8d0ce6a37337d"
+  },
+  {
+    "path": "code/scripts/toy_denoise_pretrain.py",
+    "bytes": 22920,
+    "sha256": "278bd16b369ba627e6aad1edf0e7ae6b369c241fe41184da4c43a674e7fae25c"
+  },
+  {
+    "path": "code/scripts/toy_supervised.py",
+    "bytes": 20663,
+    "sha256": "e5bd797e68aac99e0d496dd0c11982b6ce2df1ac7118a49f7bd54e84ca5f1dc1"
+  },
+  {
+    "path": "code/scripts/train_torsion_energy.py",
+    "bytes": 19222,
+    "sha256": "72501ed50bedc8ba8217b49b208cc4b3517a1036a7f14cf0a2e973e91a337eca"
+  },
+  {
+    "path": "code/scripts/train_torsion_unimol.py",
+    "bytes": 19774,
+    "sha256": "83e71436211e45f4adb90c2214e36490caf89806e3ff4ba59a9710fa2c962eaf"
+  },
+  {
+    "path": "code/tests/test_demo_compute.py",
+    "bytes": 8877,
+    "sha256": "5092ed5e09943ab11e1378f58bb5151a3adf9801cec5ed9570075ac8a4167fd8"
+  },
+  {
+    "path": "code/tests/test_engel.py",
+    "bytes": 6249,
+    "sha256": "b6791b60a28bc56916f4c64ded048705b4137c84459e2c3c41bd37ee2f9311b5"
+  },
+  {
+    "path": "code/third_party_licenses/EQUIFORMER_LICENSE",
+    "bytes": 1068,
+    "sha256": "3aece7bcdd3897a746c274ae3bc29b8f8bd4e724f5ed57b6201ed0164728870c"
+  },
+  {
+    "path": "code/third_party_licenses/MACE_LICENSE",
+    "bytes": 607,
+    "sha256": "42137790f854ae2b9d29a0a72a4da3f6fb9a21d820b3f276f23b0575af72e86e"
+  },
+  {
+    "path": "code/utils/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "code/utils/checkpoint_utils.py",
+    "bytes": 3011,
+    "sha256": "8bfa6f355a075feb9e9de3ece5e62713413a7085ca140402b0b0d8df6487c8cb"
+  },
+  {
+    "path": "code/utils/common_io.py",
+    "bytes": 1415,
+    "sha256": "8cfe90a14998970522668295fafaecbf1fb49e67c95d5bbe118b24513f7d80b2"
+  },
+  {
+    "path": "code/utils/demo_compute.py",
+    "bytes": 10387,
+    "sha256": "63538637770f05b6fbfec08e7394a871178c895402f4e3479a43e328ada52a43"
+  },
+  {
+    "path": "code/utils/demo_utils.py",
+    "bytes": 5119,
+    "sha256": "dd332b12a97db32e07af5fb82b5588834a85c4ecbdd38be356656f2cae57ebe6"
+  },
+  {
+    "path": "code/utils/lightning_utils.py",
+    "bytes": 4019,
+    "sha256": "0f6c872518ee5705c5501289436def7258cf508d768873d0c1d4772e914f62ca"
+  },
+  {
+    "path": "code/utils/protein_chain_utils.py",
+    "bytes": 5626,
+    "sha256": "39cd25e9d2513ea555c3d187eb9902964118c3fe3db59b06704e04070679aadb"
+  },
+  {
+    "path": "code/utils/rank_evaluation.py",
+    "bytes": 4519,
+    "sha256": "f7f0da4d1e251ff548c928220f7f1b8a0d9ead5ff6d8833ac0fb95538dce6d5f"
+  },
+  {
+    "path": "code/utils/torsion_data.py",
+    "bytes": 4820,
+    "sha256": "81ed47ed8199b8feb5ebe6ef2e0d11bd6482ae877a773ae828f95b436cd8ebaa"
+  },
+  {
+    "path": "code/utils/torsion_models.py",
+    "bytes": 2355,
+    "sha256": "1cbb29865364812d7177efe2ee4f2184e1783a317e00d167ec0e8f652c939d27"
+  },
+  {
+    "path": "code/utils/torsion_pretraining_analysis.py",
+    "bytes": 15119,
+    "sha256": "4f83f5e63f52695e6506bd09440dbcb9c677f7c6be0e832af6cf420b8e066c32"
+  },
+  {
+    "path": "code/utils/torsion_training_log.py",
+    "bytes": 1399,
+    "sha256": "e8aae07bbe31bc0b2ea99fa2d177158abbd6aa94475cab7fcab65320b1b0a926"
+  },
+  {
+    "path": "code/utils/toy_backbone_utils.py",
+    "bytes": 7718,
+    "sha256": "a8adb85c69684e4a6d3176c495a5b992c487129928410f0e5a9d70b4cdfdcf7f"
+  },
+  {
+    "path": "code/utils/toy_data_utils.py",
+    "bytes": 6934,
+    "sha256": "97d23c9f567d2d5cb46b92d160f74c45d63f0404ab8e26c74dc0731e0234571e"
+  },
+  {
+    "path": "code/utils/toy_model_utils.py",
+    "bytes": 12112,
+    "sha256": "978bfc39ede78acbe17ef3938203dd36d791385f7cb83e21c48bcdb025b2fa7a"
+  },
+  {
+    "path": "code/utils/toy_runtime_utils.py",
+    "bytes": 5151,
+    "sha256": "542ddb8a70ce7fcf38324671b0a5a60214983cd94ceb12df3d4813446153dc95"
+  },
+  {
+    "path": "code/utils/toy_training_reporting.py",
+    "bytes": 10685,
+    "sha256": "5864e844cc8de78aa85bc660f46f16c3946376681d5f3480951291841718d733"
+  },
+  {
+    "path": "configs/torsion_pretraining.json",
+    "bytes": 18090,
+    "sha256": "f099045405660d5ca2a8f0c4c805d12649cdfb6abecde5854766b8801f3a2c69"
+  },
+  {
+    "path": "configs/toy/equiformer_pretrained.json",
+    "bytes": 513,
+    "sha256": "a59a2efed3bb74b71aa09affe266cd124f1b95d483fe3359de515f8426a5028a"
+  },
+  {
+    "path": "configs/toy/equiformer_supervised.json",
+    "bytes": 554,
+    "sha256": "e9a2dbfd98899c7f54c2d888a0647eff52f9231f153f6cbe161ef144a57077a0"
+  },
+  {
+    "path": "configs/toy/hegnn_pretrained.json",
+    "bytes": 501,
+    "sha256": "76efd8e41a1534b4165fdba0da7139556fb9f88fd1a0869e92ba65f05aff2396"
+  },
+  {
+    "path": "configs/toy/hegnn_supervised.json",
+    "bytes": 544,
+    "sha256": "10ea9e73c3d00791083e0fbe1fe81cd3f62f5d0ebbe16273ccd7dc80aafa0756"
+  },
+  {
+    "path": "configs/toy/mace_pretrained.json",
+    "bytes": 501,
+    "sha256": "d8383f3328b7b4a5e3d8ca83c0f513f4202b389441ae1cd6f1e047700ce5d235"
+  },
+  {
+    "path": "configs/toy/mace_supervised.json",
+    "bytes": 542,
+    "sha256": "8efdb5d86f9dd03bb57687f9116388b610a2c68d0f2213103ae4ec2dce1c09da"
+  },
+  {
+    "path": "configs/toy/tfn_pretrained.json",
+    "bytes": 499,
+    "sha256": "00d75fa0bcc991bb605f205359f246044a8e14b622b1d081b594131825631234"
+  },
+  {
+    "path": "configs/toy/tfn_supervised.json",
+    "bytes": 540,
+    "sha256": "dcc59a4703db607bef9d6d276cd4ec0d10686481e015fa0e09a21de7e6f62fdc"
+  },
+  {
+    "path": "datasets.zip",
+    "bytes": 39472207,
+    "sha256": "72b87d5222cd6332f792d6cce447e94da7cf0657321d1654718648c410435e29"
+  },
+  {
+    "path": "demo/README.md",
+    "bytes": 3972,
+    "sha256": "e5d430eadceea04c7e8f211b08df05c4f6116112a266b16e0acb83c142ebde27"
+  },
+  {
+    "path": "demo/angular_modes.ipynb",
+    "bytes": 11449,
+    "sha256": "bc4ba0802e079748fb01b7a2210d57488b820b7ecc5377ad36d57caecd74625d"
+  },
+  {
+    "path": "demo/custom_structure.ipynb",
+    "bytes": 9963,
+    "sha256": "d88562b15cdc93b4a794b6e22edead8ffefeef0c863adf41a0cc3ef86a619849"
+  },
+  {
+    "path": "demo/data/dataset/mode_separation/AX1_pucker/meta.json",
+    "bytes": 1398,
+    "sha256": "06744fee0ee5a0c6b9754d222fdfe6eee736b32592d3e05cd102a0cc654ea8aa"
+  },
+  {
+    "path": "demo/data/dataset/mode_separation/AX1_pucker/positions.npz",
+    "bytes": 10574,
+    "sha256": "9e6b73c0da217ea2c37a3f63b57fcc285b6e6cb05fa797b139f073438e59b518"
+  },
+  {
+    "path": "demo/data/dataset/mode_separation/AX2_spiral/meta.json",
+    "bytes": 1451,
+    "sha256": "72e8ef358e14878c4edc22b1a37d74489100b3b1f8487104e5999a320f674087"
+  },
+  {
+    "path": "demo/data/dataset/mode_separation/AX2_spiral/positions.npz",
+    "bytes": 10574,
+    "sha256": "bfdb7457007e86b8ef0cf7868f4c1e601caaa68d5533441d4110117be2ce5b63"
+  },
+  {
+    "path": "demo/data/dataset/mode_separation/IP1_ellipse/meta.json",
+    "bytes": 1485,
+    "sha256": "8e8da1cac079ddcc9253d1655f11d2ea78e67daa1a3266b1757901d8d2a35e08"
+  },
+  {
+    "path": "demo/data/dataset/mode_separation/IP1_ellipse/positions.npz",
+    "bytes": 10574,
+    "sha256": "17466190d353410153d43d5e063641e804b1cec8bed5629f455a19f3d16d29d0"
+  },
+  {
+    "path": "demo/data/dataset/mode_separation/IP2_radial/meta.json",
+    "bytes": 1509,
+    "sha256": "6f156b39f5c8ce8811738255e002c6ee070a15b8c44f5dbc6bea541dea197142"
+  },
+  {
+    "path": "demo/data/dataset/mode_separation/IP2_radial/positions.npz",
+    "bytes": 10574,
+    "sha256": "fc3d870e1ea1a63eb1f29afd631ba89b56bd993e529b6a93701ab85610ecb47a"
+  },
+  {
+    "path": "demo/data/dataset/symmetry_breaking/B1_octahedron_tetragonal/meta.json",
+    "bytes": 3527,
+    "sha256": "53d006b181c7654c16cdd8150f3741df5111a9f09204b796ec0a46ed5f7cf40d"
+  },
+  {
+    "path": "demo/data/dataset/symmetry_breaking/B1_octahedron_tetragonal/positions.npz",
+    "bytes": 4574,
+    "sha256": "e19fef686ff97aa2f9d9efde189bcb59779bcf933004152c6cba1031aa32f9a9"
+  },
+  {
+    "path": "demo/data/dataset/symmetry_breaking/B2_octahedron_trigonal/meta.json",
+    "bytes": 3359,
+    "sha256": "50bdbfd12717940156f18ea5f9f2975597e18c53f6f5c1dcb450a7fc3f6688db"
+  },
+  {
+    "path": "demo/data/dataset/symmetry_breaking/B2_octahedron_trigonal/positions.npz",
+    "bytes": 4410,
+    "sha256": "0db619ab4a468fe154b7f706ce10f9310e22bf91a9c4ae0952e144f8be65bf91"
+  },
+  {
+    "path": "demo/data/dataset/symmetry_breaking/B3_prism_axial_chirality/meta.json",
+    "bytes": 3190,
+    "sha256": "f36a1537a6caf852ce3a995e01b6a7ed3ad27008af8917c201cee9557b7eec33"
+  },
+  {
+    "path": "demo/data/dataset/symmetry_breaking/B3_prism_axial_chirality/positions.npz",
+    "bytes": 4410,
+    "sha256": "35fd7d30c1110a66ecf74609d61550ae1dd2b292f86a303adce00a58319b8310"
+  },
+  {
+    "path": "demo/data/manifest.json",
+    "bytes": 4088,
+    "sha256": "a983c8caf535e935e4d36a3ac229319e6e71c1359e9f99ad27eefcda93788815"
+  },
+  {
+    "path": "demo/data/results/mode_separation/mode_separation_frames.csv",
+    "bytes": 59411,
+    "sha256": "5f056190869122f0adc82fe1e200463bb68ae61e7f54cfd81cd11641f9418087"
+  },
+  {
+    "path": "demo/data/results/mode_separation/verdict.json",
+    "bytes": 2080,
+    "sha256": "a1ef7ca51d85643bf1eca24ec70fea2b1a93984ebd41397d69d7ce8cd0e6b32c"
+  },
+  {
+    "path": "demo/data/results/symmetry_breaking/records/B1_octahedron_tetragonal/symfp_singvals.csv",
+    "bytes": 45716,
+    "sha256": "a36ce27c1d2507291873db3cde35114cee29a358c145d0d0218515d98bd68ddf"
+  },
+  {
+    "path": "demo/data/results/symmetry_breaking/records/B2_octahedron_trigonal/symfp_singvals.csv",
+    "bytes": 46852,
+    "sha256": "69330f78dd33cb0af4cc9f034ef654ec2a243ced30347a97badedd881f1bd981"
+  },
+  {
+    "path": "demo/data/results/symmetry_breaking/records/B3_prism_axial_chirality/symfp_singvals.csv",
+    "bytes": 46341,
+    "sha256": "57d976de5df20099677d54a392558bfd696a18b9c988dec5811e480c8edcc219"
+  },
+  {
+    "path": "demo/data/results/symmetry_breaking/records/C1_octahedron_descent/symfp_group_leakage.csv",
+    "bytes": 6461,
+    "sha256": "4ac4c66b7e5b11d2039b0f6d118ffb4780209bed5b4c78dad5e384a8e21b78f1"
+  },
+  {
+    "path": "demo/rank_activation.ipynb",
+    "bytes": 10449,
+    "sha256": "4e1ca5b8ba02de20b193b03bbd6f388ecef156de8622f82b00540404665cc22b"
+  },
+  {
+    "path": "demo/requirements.txt",
+    "bytes": 109,
+    "sha256": "76fc1bef63a902f4f4d2e48af8c3d6fe3c76d990e3567ac66f6fb8997254e6ff"
+  },
+  {
+    "path": "demo/subgroup_chain.ipynb",
+    "bytes": 7474,
+    "sha256": "7d6b147f7bf1c9ac1af0509358d4b90b8db83ea1b1da8c622b7a115c8c53d2fe"
+  },
+  {
+    "path": "docs/torsion_pretraining.rst",
+    "bytes": 8380,
+    "sha256": "751c90f95494ffb8572fea81415cfaa95cfac7cd1cb79c6abca49be80c50f23c"
+  },
+  {
+    "path": "provenance.json",
+    "bytes": 143564,
+    "sha256": "0e42360513b8636997f19018a77e6269cc94509cf21b24590bc7d2055a8e4a78"
+  },
+  {
+    "path": "source_data.zip",
+    "bytes": 5662273,
+    "sha256": "27c7bfb88d352f9bf3de59bae12bb66a9cc6bd125eabfb82c398afa53c84676b"
+  }
+]

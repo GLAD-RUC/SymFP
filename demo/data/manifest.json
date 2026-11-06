@@ -1,0 +1,107 @@
+[
+  {
+    "path": "dataset/mode_separation/AX1_pucker/meta.json",
+    "sha256": "06744fee0ee5a0c6b9754d222fdfe6eee736b32592d3e05cd102a0cc654ea8aa",
+    "bytes": 1398
+  },
+  {
+    "path": "dataset/mode_separation/AX1_pucker/positions.npz",
+    "sha256": "9e6b73c0da217ea2c37a3f63b57fcc285b6e6cb05fa797b139f073438e59b518",
+    "bytes": 10574
+  },
+  {
+    "path": "dataset/mode_separation/AX2_spiral/meta.json",
+    "sha256": "72e8ef358e14878c4edc22b1a37d74489100b3b1f8487104e5999a320f674087",
+    "bytes": 1451
+  },
+  {
+    "path": "dataset/mode_separation/AX2_spiral/positions.npz",
+    "sha256": "bfdb7457007e86b8ef0cf7868f4c1e601caaa68d5533441d4110117be2ce5b63",
+    "bytes": 10574
+  },
+  {
+    "path": "dataset/mode_separation/IP1_ellipse/meta.json",
+    "sha256": "8e8da1cac079ddcc9253d1655f11d2ea78e67daa1a3266b1757901d8d2a35e08",
+    "bytes": 1485
+  },
+  {
+    "path": "dataset/mode_separation/IP1_ellipse/positions.npz",
+    "sha256": "17466190d353410153d43d5e063641e804b1cec8bed5629f455a19f3d16d29d0",
+    "bytes": 10574
+  },
+  {
+    "path": "dataset/mode_separation/IP2_radial/meta.json",
+    "sha256": "6f156b39f5c8ce8811738255e002c6ee070a15b8c44f5dbc6bea541dea197142",
+    "bytes": 1509
+  },
+  {
+    "path": "dataset/mode_separation/IP2_radial/positions.npz",
+    "sha256": "fc3d870e1ea1a63eb1f29afd631ba89b56bd993e529b6a93701ab85610ecb47a",
+    "bytes": 10574
+  },
+  {
+    "path": "dataset/symmetry_breaking/B1_octahedron_tetragonal/meta.json",
+    "sha256": "53d006b181c7654c16cdd8150f3741df5111a9f09204b796ec0a46ed5f7cf40d",
+    "bytes": 3527
+  },
+  {
+    "path": "dataset/symmetry_breaking/B1_octahedron_tetragonal/positions.npz",
+    "sha256": "e19fef686ff97aa2f9d9efde189bcb59779bcf933004152c6cba1031aa32f9a9",
+    "bytes": 4574
+  },
+  {
+    "path": "dataset/symmetry_breaking/B2_octahedron_trigonal/meta.json",
+    "sha256": "50bdbfd12717940156f18ea5f9f2975597e18c53f6f5c1dcb450a7fc3f6688db",
+    "bytes": 3359
+  },
+  {
+    "path": "dataset/symmetry_breaking/B2_octahedron_trigonal/positions.npz",
+    "sha256": "0db619ab4a468fe154b7f706ce10f9310e22bf91a9c4ae0952e144f8be65bf91",
+    "bytes": 4410
+  },
+  {
+    "path": "dataset/symmetry_breaking/B3_prism_axial_chirality/meta.json",
+    "sha256": "f36a1537a6caf852ce3a995e01b6a7ed3ad27008af8917c201cee9557b7eec33",
+    "bytes": 3190
+  },
+  {
+    "path": "dataset/symmetry_breaking/B3_prism_axial_chirality/positions.npz",
+    "sha256": "35fd7d30c1110a66ecf74609d61550ae1dd2b292f86a303adce00a58319b8310",
+    "bytes": 4410
+  },
+  {
+    "path": "results/mode_separation/mode_separation_frames.csv",
+    "sha256": "5f056190869122f0adc82fe1e200463bb68ae61e7f54cfd81cd11641f9418087",
+    "bytes": 59411,
+    "source_sha256": "465a17f504466dbcd0ccae0f179e6b2f9f30abe8d9991dee36a07f4edd9caa8d"
+  },
+  {
+    "path": "results/mode_separation/verdict.json",
+    "sha256": "a1ef7ca51d85643bf1eca24ec70fea2b1a93984ebd41397d69d7ce8cd0e6b32c",
+    "bytes": 2080
+  },
+  {
+    "path": "results/symmetry_breaking/records/B1_octahedron_tetragonal/symfp_singvals.csv",
+    "sha256": "a36ce27c1d2507291873db3cde35114cee29a358c145d0d0218515d98bd68ddf",
+    "bytes": 45716,
+    "source_sha256": "ecdc473aba46b50a49bf36eebd6d8e1d1730760c8432520f43888655ede5d56d"
+  },
+  {
+    "path": "results/symmetry_breaking/records/B2_octahedron_trigonal/symfp_singvals.csv",
+    "sha256": "69330f78dd33cb0af4cc9f034ef654ec2a243ced30347a97badedd881f1bd981",
+    "bytes": 46852,
+    "source_sha256": "e929cae6f8957f046d73d7d99c9ac77974c6165f28e8d6f7ed6515c4de463617"
+  },
+  {
+    "path": "results/symmetry_breaking/records/B3_prism_axial_chirality/symfp_singvals.csv",
+    "sha256": "57d976de5df20099677d54a392558bfd696a18b9c988dec5811e480c8edcc219",
+    "bytes": 46341,
+    "source_sha256": "7b9ca08e4d5167296d10d3a5fbc26d3ac2f268e9634d92c5710f47f6af8a5d6f"
+  },
+  {
+    "path": "results/symmetry_breaking/records/C1_octahedron_descent/symfp_group_leakage.csv",
+    "sha256": "4ac4c66b7e5b11d2039b0f6d118ffb4780209bed5b4c78dad5e384a8e21b78f1",
+    "bytes": 6461,
+    "source_sha256": "ce2362509ea2a2fcbabfeb062d0415763f57498488d991b5ef2b1bc6cd29097a"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "model": "mace",
+  "regime": "pretrained",
+  "hyper_parameters": {
+    "model_type": "mace",
+    "hidden_dim": 64,
+    "num_layers": 2,
+    "max_ell": 6,
+    "irreps_channels": 16,
+    "mace_correlation": 2,
+    "lr": 0.001,
+    "weight_decay": 1e-05,
+    "edge_loss_weight": 0.1
+  },
+  "epoch": 50,
+  "global_step": 4080,
+  "source_checkpoint_sha256": "0ca238b7c8e17690760282523a3eaacd36c0c3d2cd0670b51af0cdeb30d7c364",
+  "format": "NumPy state_dict: use torch.from_numpy for each named array"
+}
